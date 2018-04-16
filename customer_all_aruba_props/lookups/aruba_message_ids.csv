@@ -1,0 +1,2277 @@
+description,message_id
+"RFD process initialization failed",323001
+"MESHD process initialization failed.Cause: MESHD process initialization failed possibly because the mesh-node is not correctly provisioned.Recommended Action: Re-provision the AP. Contact your technical support provider if this problem persists.",330203
+"MESHD process exiting.Cause: No MESH role was specified.Recommended Action: Re-provision the AP. Contact your technical support provider if this problem persists.",330204
+"MESHD process exiting.Cause: No MESH cluster profile was specified.Recommended Action: Re-provision the AP. Contact your technical support provider if this problem persists.",330205
+"No description available.",341008
+"Some evaluation licenses will expire in the stated number of days.For feature licenses",300109
+"Feature licenses have expired and the controller is reloading in order to deactivate the features",300114
+"Licenses contributed by the client will expire in the stated number of days. At this level",300146
+"Warning indicating that the VRRP Master received Advertisement with lower priority which is ignored.",313333
+"No description available.",334529
+"No description available.",341007
+"[func:%s]: [line:%d]: out of memory. Recommended Action: The AP is upgrading image from awc.Critical MessagesTable 6 Critical System MessagesError IDMessage and Description",341091
+"Some evaluation licenses will expire in the stated number of days.Recommended Action: For feature licenses",300108
+"At initialization time",300117
+"Licenses sent by the server will expire in the stated number of days. At this level",300144
+"Licenses contributed by the client will expire in the stated number of days. At this level",300157
+"The license manager failed to query its database. This error is fatal and the process will restartRecommended Action: If the error persists",300182
+"The license manager failed to query its database. This error is fatal and the process will restartRecommended Action: If the error persists",300183
+"An ODBC error has occurred when creating the License DB. Recommended Action: No description available.",300187
+"We are running low on memory. Please clean-up your flash files ystem. If this problem persists please report it to technical support.Recommended Action: Clean-up the flash file system.If this problem persists contact your technical support provider.",303040
+"This should not happen",303048
+"No description available.",303087
+"No description available.",303088
+"No description available.",303089
+"No description available.",303090
+"No description available.",303091
+"Network configuration is incorrect. A local switch in the network has the same IP address as the master.Recommended Action: Validate network configuration and addressing of local and master controller",307087
+"This shows a critical error message in IF-MAP Client.",309001
+"No description available.",313109
+"Turning off the port as the POE is oversubscribed",314806
+"This syslog describes the reason the switch was rebooted",315382
+"System has reached maximum user capacity. Recommended Action: Limit of the system has been reached.",325017
+"System has reached max xSec user capacity",325026
+"System has reached max capacity of Advanced Crypto users",325028
+"The system reported an error while trying to read regulatory domain information from the system hardware. As a result",334001
+"The number of OSPFv2 network routes exceeds the forwarding table limit of [num:%d] routes",334544
+"Failed to add OSPFv2 route because routing table is full",334545
+"Discarding LSA because LS database is full. LS database contains [num:%u] LSAs",334546
+"A card Tempertaure is too high.Recommended Action: Assure that ambient temperture is not too high and that airflow is unrestricted around the chassis vents.",335002
+"Top slot M3 is not able to talk to the bottom slot M3.Recommended Action: Please check the Bottom slot to make sure it is operational",335008
+"No description available.",341006
+"This log indicates that the system was unable to initialize a system component. This could be a transient condition and the problem might go awayRecommended Action: In case the problem persists",399811
+"Unexpected condition occurred in the mobility manager (mobileip) Recommended Action: Contact your support provider.",300000
+"Unexpected condition occurred in the mobility manager (mobileip) Recommended Action: Contact your support provider",300005
+"Unexpected condition occurred in the mobility manager (mobileip) Recommended Action: Contact your support provider",300006
+"Unexpected condition occurred in the mobility manager (mobileip) Recommended Action: Contact your support provider",300007
+"The license manager failed to initialize its database. This error is fatal and the process will restart.Recommended Action: If the error persist",300101
+"Backplane locking failed due to an inability to communicate with the datapath for the indicated opcode.Recommended Action: If the error persist",300102
+"Backplane locking failed due to an inability to allocate memory Recommended Action: If the error persist",300103
+"A serial number mismatch has been detected for the specified key",300110
+"A model number mismatch has been detected for the specified key",300111
+"An invalid limit key has been detected",300112
+"An invalid feature key has been detected",300113
+"An SQL error occurred while executing the indicated command. Recommended Action: If the error persist",300116
+"The indicated license key could not be deleted. The preceding message indicates the SQL error.",300119
+"During an upgrade from an older release",300120
+"Clearing all the licenses failed.Cause: The preceding error indicates the SQL failure.",300121
+"Changing the activation status of one or more keys failed. Cause: The preceding message indicated the SQL failure.",300123
+"Internal communication between licensing and other applications has failed.Recommended Action: Reload the controller. If the problem persist",300124
+"Internal communication between licensing and other applications has failed. Reload the controller.Recommended Action: If the problem persist",300125
+"The software was unable to obtain the system serial number. Licensed functions will not workRecommended Action: Contact your service provider.",300127
+"Encrypting the installation time for the key failed.Recommended Action: If the problem persists",300129
+"Decrypting the installation time for a key failed.Recommended Action: If the problem persists",300130
+"After adding a license that requires a configuration file update",300131
+"A serial number mismatch has been detected for the specified key. Cause: This is generally due to swapping flash modules or importing a license databasefrom another controller.Recommended Action: Contact your support provider",300133
+"A model number mismatch has been detected for the specified key. Cause: This is generally due to swapping flash modules or importing a license databasefrom another controller.Recommended Action: Contact your support provider",300134
+"A serial number mismatch has been detected for the specified key.Cause: This is generally due to swapping flash modules or importing a license database from another controller.",300135
+"A model number mismatch has been detected for the specified key.Cause: This is generally due to swapping flash modules or importing a license database from another controller.",300136
+"An SQL error occurred while looking up a license key.",300137
+"An SQL error occurred when exporting the database.",300142
+"An SQL error occurred when importing the database.",300147
+"Platform upgrade is not supported to the new platform from the existing platform.",300152
+"This key contains a feature which is not allowed on this variant.",300154
+"The keys cannot be added as the Eval key for the feature is older.",300155
+"A complete key is already installed; only one is allowed.",300156
+"Dropping the cmd to add key as key is already present.",300163
+"Dropping the cmd to delete key as key is not present",300164
+"Failed to create a new License Database.",300174
+"License report aborted due to a failure in file open.",300179
+"License report generation failed.",300180
+"The license manager failed to initialize its database. This error is fatal and the process will restartRecommended Action: If the error persists",300181
+"An error occurred while retrieving the license records as there are multiple License Entries.",300189
+"There is no license entry matching the particular key.",300190
+"No license entry found in the License DB.",300195
+"Operation failed when trying to sync the configuration with the MMS server.Cause: This could be due to the MMS server not properly configured",300201
+"The system reported an error while trying to send an internal PAPI message to the trap daemon for trap processing. As a result",301003
+"The system reported an error while initializing the SNMP process and itø€™s unable to bind to the SNMP port. As a result",301010
+"At startup",301011
+"At startup",301012
+"The SNMP server failed to create an SNMP PDU used for SNMP response due to an invalid data length",301014
+"The SNMP server failed to create an SNMP PDU used for an SNMP response. An SNMP response will not be generated.",301016
+"The SNMP server failed to create an SNMP PDU used for an SNMP response due to a failure in creating a var bind for the PDU response. An SNMP response will not be generated.",301025
+"The SNMP server reported an error while creating a new OID from 2 OIDs",301048
+"The SNMP server reported an error while handling an SNMP PDU",301050
+"The SNMP server reported an error while handling SNMP varbinds",301067
+"The SNMP server reported an error while handling an octet string varbind",301083
+"The SNMP server reported an error while handling an OID",301084
+"The SNMP server detected an invalid data type while parsing a PDU",301096
+"The SNMP server reported an error while parsing an SNMP message",301126
+"The SNMP server was unable to allocate memory for an octet string",301131
+"The SNMP server reported an invalid SNMP engine ID algorithm request",301132
+"The SNMP server reported an invalid SNMP v3 message ID Recommended Action: If the error persists",301136
+"The SNMP server received an SNMP v3 message that exceeds the maximum supported message size.Recommended Action: If the error persists",301138
+"The SNMP server received an invalid security level while creating an SNMPv3 messageRecommended Action: If the error persists",301173
+"The SNMP server encountered an internal error while creating a new entry for an SNMP user or hostArubaOS 6",301178
+"The SNMP server encountered an internal error while creating a search string while adding or modifiying a host",301187
+"The SNMP server encountered an internal error while creating a search string while adding or modifiying a host",301202
+"The SNMP server encountered an invalid security level or model for SNMP v3 authentication",301206
+"The SNMP server encountered an internal error while modifying an internal host",301207
+"The SNMP server encountered an internal error while deleting an internal host",301212
+"The SNMP server encountered an internal error while converting dot notation name to its OIDRecommended Action: If the error persists",301213
+"The SNMP server encountered an internal error while creating an OID Recommended Action: If the error persists",301214
+"The SNMP server encountered an internal error while converting an OID to a dot notation stringRecommended Action: If the error persists",301216
+"The SNMP server encountered an internal error while creating a varbind Recommended Action: If the error persists",301218
+"The SNMP server encountered an internal error while creating a varbind Recommended Action: If the error persists",301219
+"The SNMP server encountered an internal error while creating an SNMPv3 report PDURecommended Action: If the error persists",301220
+"The SNMP server encountered an internal error while creating an SNMPv3 report PDURecommended Action: If the error persists",301221
+"Could not parse reqid in encrypted message.You may have just got an error in ParseType",301222
+"The SNMP server encountered an internal error while initializing the standard MIB",301223
+"The SNMP server encountered an internal error while initializing the enterprise MIB",301224
+"The system reported an error when the SNMP process received a zero length packetRecommended Action: If the error persists",301227
+"The SNMP process received a SNMP v3 request with an unknown contextRecommended Action: Verify that the credentials used for the SNMP v3 request is valid",301240
+"The SNMP process was unable to create a SNMP response Recommended Action: If the error persists",301247
+"The TRAPD process is unable to bind to the SNMP trap port Recommended Action: If the error persists",301249
+"The TRAPD process is unable to send a trap to a trap host Recommended Action: If the error persists",301250
+"The TRAPD process couldnø€™t find the trap host receiving a generated trap Recommended Action: If the error persists",301254
+"The TRAPD process is unable to parse an SNMP v3 inform response Recommended Action: If the error persists",301259
+"The TRAPD process is unable to parse an SNMP v3 inform response Recommended Action: If the error persists",301261
+"The TRAPD/SNMPD process is unable to edit an SNMPv3 security group entryRecommended Action: If the error persists",301287
+"The TRAPD/SNMPD process is unable to add an SNMPv3 security userRecommended Action: Please verify that the SNMPv3 supplied credentials are correct. If the error persists",301288
+"The TRAPD process was unable to add an SNMP v1 host entryRecommended Action: Verify that the supplied SNMP v1 trap host entry is valid. If the error persists",301290
+"The TRAPD process was unable to add an SNMP v1 community targetRecommended Action: Verify that the supplied SNMP v1 trap host entry is valid. If the error persists",301291
+"The TRAPD process has reached the maximum number of SNMP v3 inform hostsRecommended Action: Remove the existing SNMP v3 inform host to add a new entry",301292
+"No description available.",301298
+"No description available.",301299
+"[line:%d] Error Setting the V2C Host Parameter ([communityName:%s])No description available.",301300
+"No description available.",301303
+"No description available.",301304
+"No description available.",301305
+"No description available.",301306
+"No description available.",301307
+"No description available.",301308
+"No description available.",301309
+"No description available.",301310
+"No description available.",301312
+"No description available.",301316
+"No description available.",301317
+"No description available.",301318
+"No description available.",301319
+"No description available.",301320
+"No description available.",301330
+"No description available.",301332
+"No description available.",301333
+"No description available.",301344
+"No description available.",301345
+"No description available.",301405
+"No description available.",301409
+"No description available.",301410
+"No description available.",301411
+"No description available.",301412
+"No description available.",301413
+"No description available.",301414
+"No description available.",301415
+"No description available.",301416
+"No description available.",301417
+"No description available.",301418
+"No description available.",301422
+"No description available.",301423
+"No description available.",301424
+"No description available.",301425
+"No description available.",301426
+"No description available.",301428
+"No description available.",301429
+"No description available.",301430
+"No description available.",301431
+"No description available.",301432
+"No description available.",301433
+"No description available.",301434
+"The controller only accepts config sync requests from the active MMS server. This syslog indicates the config sync was generated from a unrecognized IP address.",301436
+"Unexpected condition occurred in the process manager (nanny) Recommended Action: Contact your support provider30 | System Messages ArubaOS 6",303000
+"Unexpected condition occurred in the process manager (nanny) Recommended Action: Contact your support provider",303001
+"Failed to open console while starting process Recommended Action: Contact your support provider",303003
+"Failed to exec process.Recommended Action: Contact your support provider",303004
+"Internal ErrorRecommended Action: Contact your support provider",303005
+"No description available.",303008
+"No description available.",303009
+"Internal ErrorRecommended Action: Contact your support provider",303020
+"No Reboot flag is set in CPBOOT. Recommended Action: Contact your support provider",303021
+"This should not happenRecommended Action: Contact you support provider.",303023
+"This should not happenRecommended Action: Contact your support provider.",303024
+"Compressing Core file.Recommended Action: Contact your support provider.",303025
+"Internal System error while compressing core file Recommended Action: Contact your support provider.",303026
+"Unable to save core fileRecommended Action: Remove unused files from flash",303027
+"Process went down but no core file has been generated Recommended Action: If this is seen consistently",303028
+"Successfully generated Core fileRecommended Action: Contact your support provider",303029
+"Transferring core file to serverRecommended Action: Contact your support provider",303030
+"Removing old crash dumpsRecommended Action: Just an informational message; no action required",303041
+"Information mesageRecommended Action: Just an informational message; no action required",303042
+"Information mesageRecommended Action: Just an informational message; no action required",303043
+"System is trying to generate more free space. Cleaning more core files Recommended Action: Just an informational message; no action required",303044
+"Just an information message. No action requiredø€œAfter cleaning cores files",303045
+"Removing all crash data from flashRecommended Action: Just an informational message; no action required",303046
+"Information mesageRecommended Action: Just an informational message; no action required",303047
+"We are running low on memory. We will be removing old crash files to generate more free spaceRecommended Action: Just an informational message; no action required",303050
+"Information mesageRecommended Action: Just an informational message; no action required",303051
+"This message indicates system is running out of memory. System will reboot if the condition persistsRecommended Action: Run show processes and show memory command to monitor usage",303061
+"We are running very low on memory",303063
+"Critical process has gone doneRecommended Action: Contact your support provider",303070
+"Critical process has died. Rebooting system Recommended Action: Contact your support provider",303071
+"Process has been restartedRecommended Action: Informational message; no action required",303072
+"Process died because of signal mentioned above Recommended Action: Congtact your support provider",303073
+"No description available.",303074
+"No description available.",303075
+"One Time Process has terminatedRecommended Action: Informational message; no action required",303076
+"Restartable processes has been respawned Recommended Action: Informational message; no action required",303079
+"No description available.",303080
+"This message defines action to be taken once crash file has been generatedRecommended Action: Follow the instructions in the message and contact your support provider with the tar file",303081
+"No description available.",303082
+"Process has been restarted with in defined limits. No more restarts for this processRecommended Action: Contact your support provider",303083
+"Internal system error",303084
+"Nanny recieved SIGTERM",303085
+"Nanny recieved SIGTERM",303086
+"No description available.",303093
+"No description available.",303094
+"Unexpected condition occurred in the station manager (stm) Recommended Action: Contact your support provider",304000
+"Unexpected condition occurred in the station manager (stm) Recommended Action: Contact your support provider",304001
+"Inter-process communication message failed to reach the target.",304035
+"VPOOL: Maximum capcity ([count:%d]) reached for Vlan Pool hash table Recommended Action: Contact your support provider",304039
+"VPOOL: Vlan Pool hash table ([vap:%s]) collision at [entry:%d]. Not handled! Recommended Action: Contact your support provider",304040
+"VPOOL: Error allocating VLAN from Virtual AP pool [name:%s] Recommended Action: Contact your support provider",304041
+"The application was not able to connect to the user database.",304045
+"The application was not able to create the Client Blacklist tables in the user database.",304046
+"This log indicates that an SQL command failed when it was executed on the user database.",304047
+"This log indicates that an update to the client blacklist database table failed.",304049
+"This log indicates that the client blacklist table is full and an entry that would have been added could not be added",304054
+"Unexpected condition occurred in the station manager (stm)",304055
+"Aruba inter-process communication message failed to reach datapath.",304058
+"Datapath reply to PAPI message sent is truncated.",304060
+"Aruba inter-process communication message failed to reach auth manager.",304062
+"Aruba inter-process communication message failed to reach air monitor.",304063
+"Aruba inter-process communication message failed to reach destination.",304064
+"Aruba inter-process communication message failed to reach destination.",304065
+"Inter-process communication message failed to reach the target.",304067
+"The system tried to assign the specified profile to the specified AP",305004
+"The APø€™s configuration must contain at least one valid instance of the given profile type",305027
+"No description available.",305044
+"No description available.",305045
+"No description available.",305052
+"No description available.",305102
+"Application failed to get license informationArubaOS 6",306400
+"KE Daemon encounted an internal error during startup",306402
+"KE Daemon received information it can not process Recommended Action: This message can be ignored",306403
+"IKE Daemon received internal message from unknown service Recommended Action: This message can be ignored",306406
+"Sysctl call failed",306407
+"Ike Daemon could not initialize configuration data",306410
+"VPN module requesting for switch IP failed.",306413
+"PubSub module encountered an internal error while sending a message to the specified module. The message will be resent",306514
+"Failed to send pubsub publisher message to pubsub module. The message will be resent",306515
+"Failed to send pubsub subscriber message to pubsub module. The message will be resent",306516
+"This is an internal system error Recommended Action: Contact your support provider",306600
+"Controller encountered error sending data over TCP socket between master-local",307021
+"Controller has encountered error receiving data over TCP socket between master-local",307024
+"Master received communication from local from which it never heard (exchanged heart-beat).",307059
+"Configuration manager is unable to push config snapshot to Application due to failure of inter-process messagingRecommended Action: Contact your support provider36 | System Messages ArubaOS 6",307069
+"Master failed to send configuration to Local over TCP connection Recommended Action: Contact your support provider",307070
+"Configuration manager is unable to send switch ip request message to L2/L3 moduleRecommended Action: Contact your support provider",307139
+"Error sending request to L2/L3 module for VRRP Role InformationCause: Configuration manager is unable to send VRRP role information message to L2/ L3 moduleRecommended Action: Contact your support provider",307141
+"Configuration manager is unable to allocate buffer",307164
+"Configuration manager is unable to allocate buffer",307165
+"Bind socket system call failed. It will retriedRecommended Action: If the problem persists",307180
+"Configuration manager is unable to read configuration file Recommended Action: Contact your support provider",307199
+"Error opening the Master Config Socket. Configuration distribution to the locals will not work properly",307222
+"There was an error in making the Config server socket NON BLOCKING",307225
+"Error Accepting a connection to the Master Config socket",307228
+"Configuration manager is unable to allocate memory for config packet",307246
+"Local received config less than what master conveyed in config header. This config download will be aborted and local will retryRecommended Action: If the problem persist",307247
+"An unexpected condition occurred in the configuration manager Recommended Action: Contact your support provider",307386
+"No description available.",307397
+"No description available.",307398
+"No description available.",307399
+"No description available.",307400
+"No description available.",307401
+"This shows an error message in IF-MAP Client.",309002
+"This indicates an assert condition failed.",309018
+"This indicates failure in calling PAPI_Init.",309019
+"This indicates failure in calling PAPI_AddLocking.",309020
+"This indicates failure in calling ncfg_init.",309026
+"This indicates failure in calling sapi_init.",309027
+"The AP was unable to upgrade its image. Message 311014 will follow with details about the error.",311013
+"This message presents detailed information about an AP image upgrade error.",311014
+"Internal error occured while accessing domain lists file.",311016
+"Internal error occured while resolving the domain names Recommended Action: Contact your support provider38 | System Messages ArubaOS 6",311017
+"Internal error occured while processing the domain results file Recommended Action: Contact your support provider",311018
+"The access point was unable to generate a certificate signing request (CSR).Recommended Action: Contact your support provider",311019
+"This log indicates that we encountered an internal system error. Recommended Action: Contact your support provider",311020
+"This log indicates that we encountered an internal system error. Recommended Action: Contact your support provider",311021
+"System failed to allocate memory at the specified locationRecommended Action: Use the show memory and the show process commands to monitor memory usage. If the problem persist",311022
+"System failed to allocate memory at the specified locationRecommended Action: Use the show memory and the show process commands to monitor memory usage. If the problem persist",311023
+"No description available.",311027
+"IP multicast process was terminated unexpectedly",312000
+"GSM initilization failed",312002
+"ESI module has terminated unexpectedly. It will be restarted",312100
+"STP instance exceeded maximum number of VLANs",313003
+"VLAN creation failed as maximum capacity has been reached",313015
+"VLAN creation failed due to invalid VLAN ID",313016
+"VLAN creation failedArubaOS 6",313017
+"Cannot modify VLAN before bridge initialization is complete",313019
+"VLAN update failed",313020
+"An error occured while adding tunnel to VLAN",313024
+"An error occured while removing tunnel from VLAN",313033
+"An error occured while configuring native VLAN of port",313041
+"An error occured while creating VLAN",313043
+"An error occured while adding/removing XSec port to/from VLAN",313078
+"An error occured during interface event handling",313094
+"No description available.",313096
+"No description available.",313097
+"No description available.",313099
+"No description available.",313102
+"No description available.",313103
+"No description available.",313104
+"No description available.",313107
+"No description available.",313108
+"No description available.",313110
+"No description available.",313111
+"No description available.",313124
+"No description available.",313125
+"No description available.",313137
+"No description available.",313138
+"No description available.",313141
+"No description available.",313147
+"System encountered an internal error while deleting a routing interface",313164
+"System encountered an internal error while deleting a routing interface",313165
+"Conflict in IGMP configuration",313182
+"Conflict in IGMP Proxy Configuration",313183
+"Conflict in IGMP Snooping/Proxy Configuration",313184
+"Configured IPv6 link local interface address is duplicate and is already in use in the network.",313186
+"Interface IPv6 neigbor entry mac is broadcast/multicast address and hence invalid",313193
+"Error message to indicate that the AMAP list lock creation is failedArubaOS 6",313194
+"Error message to indicate that NIM ports lock creation failed",313195
+"Conflict in MLD Snooping/Proxy Configuration",313196
+"Conflict in MLD Proxy Configuration",313197
+"The PPPoE session has exited unexpectedly. The connection will be re- established",313215
+"The command to initiate a pppoe session has failed.Recommended Action: If this error persists and the controller is unable to establish an outside link",313218
+"The VLAN on which PPPoE has been configured for is no longer validRecommended Action: Verify that the PPPoE vlan has been deleted",313227
+"The switch LOOP back address has been changed and switch rebooted to reflect this changeRecommended Action: Save the current configuration and restart the controller",313234
+"The PPPoE IP address conflicts with another interface IP on the controllerRecommended Action: Check all the VLAN interfaces IPs configured on the controller for duplicates",313235
+"An error occured when trying to set the PPPoE interface IPRecommended Action: If this error persists and the controller is unable to establish an outside link",313236
+"An error occured when trying to add the PPPoE ARP entryRecommended Action: If this error persists and the controller is unable to establish an outside link",313237
+"A static entry could not be added to ARP table because of internal resource limits",313241
+"A static entry could not be added to ARP table because of an internal error",313243
+"A new route could not be added to the database because system exceeded the maximum route capacityø€ù42 | System Messages ArubaOS 6",313248
+"Systen encountered an internal error while inserting a route entry into the databaseø€ù",313250
+"System detected database corruption while inserting a route entry into the database",313251
+"No description available.",313253
+"System did not add a route because it already existed",313261
+"System encountered an internal error while adding a route",313262
+"System encountered an internal error while deleting a route",313265
+"A new route could not be added to the database because system exceeded the maximum route capacityø€ù",313293
+"ø€œSysten encountered an internal error while inserting a route entry into the databaseø€ù",313295
+"ø€œSystem detected database corruption while inserting a route entry into the databaseø€ù",313296
+"No description available.",313298
+"An error message indicating that VRRP could not get the IP address assigned to the VLAN",313322
+"An error message indicating that VRRP could not get the switch IP address",313323
+"An internal error occured while configuring MAC address of the interface",313349
+"System failed to get internal interface number from slot/port",313366
+"System failed to get the interface speed",313374
+"An internal error occured while configuring Xsec tunnel in the hardwareArubaOS 6",313391
+"Failed to get the interface data rate",313393
+"An internal error occured while retrieving port statistics",313401
+"An internal error occured while configuring the port speed",313404
+"An internal error occured while configuring the auto negotiation state of the port",313405
+"An internal error occured while configuring the admin state of the interface",313406
+"An internal error occured while configuring the address type of the interface",313407
+"An internal error occured while configuring the MTU of the interface",313408
+"Failed to get internal interface number from slot/port",313422
+"This is an internal error indicating failure to create a LAG interface",313437
+"This is an internal error indicating failure in notification of LAG creation",313438
+"POE HW failure.",313440
+"An internal error message indicating that system is unable to add messages in VRRP message queue",313441
+"This message indicates that the VRRP is disabled because of IP address conflict",313446
+"The PPPD child process for cellular/modem device have exited unexpectedly. It will be restarted as necessary",313452
+"The PPP operation failed when calling the service provider. The operation will be retried",313455
+"FPAPPS has encountered an error while processing USB device",313503
+"The NVRAM manufacturing information is not valid",314800
+"System is restarting stuck queue engine Recommended Action: Contact your support provider",314808
+"System has reconfigured SERDES configuration on the linecard Recommended Action: Contact your support provider",314809
+"No description available.",314810
+"No description available.",314811
+"System is unable to detect the line card or the line card is not ready.Recommended Action: If the message persists for more than 5 minutes",314812
+"This log indicates that the slot index configured exceeds the number of slots supported.",315005
+"Operation failed when attempting to shutdown the switch vlan interface",315013
+"An error was encountered while decrypting a key",315020
+"Operation failed when trying to add tunnel membership to specified vlan",315073
+"An IP address conflict was detected while validating the ip address and netmask",315130
+"An IP address conflict was detected while validating the IPv6 address",315131
+"Unable to find anymore available VLAN tracking slots to add the new entry",315153
+"The switch was unable to determine the master vrid needed to update the peer masterip info",315155
+"SNMP agent was unable to find the attribute value when processing the information requestArubaOS 6",315259
+"The switch was unable to determine the current temperature",315381
+"No description available.",315384
+"No description available.",316002
+"Error in initializing GSM",316005
+"No description available.",316019
+"No description available.",316022
+"WMS was not able to send a message to the probe. There may be a connectivity issue.",316023
+"No description available.",316062
+"No description available.",316066
+"This shows an internal debug message",320000
+"This log indicates that application processes in the system encountered an error sending messages to each other. This could be a transient condition and the problem might go away.Recommended Action: If the problem persists",322000
+"This log indicates that application processes in the system encountered an error sending messages to each other. This could be a transient condition and the problem might go away.Recommended Action: If the problem persists",323000
+"This shows an internal error message",325012
+"System has the maximum allowable number of NAT pools",325016
+"This shows an internal error message",325020
+"The L2/L3 module sent a message referencing a bad VLAN ID. Recommended Action: Contact your support provider",325022
+"File system could be corrupted",325023
+"Custom uploaded certificate could be corrupted",325024
+"This shows an internal debug message",325032
+"Sending message to DHCP Daemon failed",325033
+"Printing AUTH NVMGR Error Message",325034
+"PAPP Setting of Send Buffer Size failure Message",325035
+"This shows an internal error message",325036
+"This shows an internal error message",325037
+"This shows an internal error message",325038
+"This shows an internal error message",325039
+"This shows an internal error message",325040
+"This shows an internal error message",325041
+"This shows an internal error message",325042
+"This shows an internal error messageArubaOS 6",325042
+"Internal Error: gsm_initialize failed",325043
+"Internal Error: gsm_publish failed",325044
+"Internal Error: gsm_publish failed",325045
+"Internal Error: gsm publish failed",325046
+"Internal Error: gsm publish failed",325047
+"No description available.",326054
+"No description available.",326055
+"No description available.",326063
+"No description available.",326068
+"This log indicates that application processes in the system encountered an error when sending messages to each other.Cause: This could be a transient condition and the problem may go away. Recommended Action: If the problem persists",326071
+"No description available.",326143
+"No description available.",326183
+"This log indicates that we encountered an internal system error Recommended Action: Contact your support provider",326267
+"This log indicates that we encountered an internal system error Recommended Action: Contact your support provider48 | System Messages ArubaOS 6",326268
+"This log indicates that the application processes",326269
+"System failed to allocate memory at the specified locationRecommended Action: Execute the show memory and show process commands to view and monitor memory usage. If the problem persists",326270
+"This log indicates that we encountered an internal system error Recommended Action: Contact your support provider",326281
+"This log indicates that application processes in the system encountered an error sending messages to each other.Cause: This could be a transient condition and the problem might go away. Recommended Action: If he problem persists",330201
+"This log indicates a general error other than internal/communications errors. e.g. might point to a configuration problem.",330208
+"This log indicates that we encountered an internal system error. Recommended Action: Contact your support provider",330209
+"This log indicates that we encountered an internal system error. Recommended Action: Contact your support provider",330210
+"System failed to allocate memory at the specified locationRecommended Action: Use the show memory and show process command to monitor memory usage. If the problem persist",330211
+"This log indicates that application processes in the system encountered an error sending messages to each other. This could be a transient condition and the problem might go away.Recommended Action: IIf the problem persist",330212
+"Unable to write to /etc/radvd.conf. Possible reason being file system is full.Recommended Action: Contact Aruba tech-support.",330400
+"Unexpected condition occurred in the radvdwrap Recommended Action: Contact technical support",330401
+"Unexpected condition occurred in the PhoneHome manager (phonehome).Recommended Action: Contact your support provider",334200
+"No description available.",334204
+"Unexpected condition occurred in the phonehome. Recommended Action: Contact your support provider",334205
+"Unexpected condition occurred in the PhoneHome manager (phonehome).Recommended Action: Contact your support provider",334206
+"PhoneHome SM received unexpected Event.Recommended Action: This should not happen",334209
+"PhoneHome hitting processing error while preparing transaction. Recommended Action: Contact your support provider",334221
+"Failed to initialize SAPI",334400
+"Failed to initialize NCFG",334402
+"Dispatcher timer failed to get time",334403
+"Failed to send PAPI message",334404
+"Encountered failure sending mail to SMTP server",334406
+"Util Proc general errors50 | System Messages ArubaOS 6",334411
+"No description available.",334500
+"No description available.",334502
+"No description available.",334503
+"No description available.",334504
+"No description available.",334505
+"No description available.",334506
+"No description available.",334507
+"No description available.",334508
+"No description available.",334509
+"No description available.",334511
+"No description available.",334512
+"No description available.",334524
+"No description available.",334525
+"No description available.",334530
+"No description available.",334531
+"No description available.",334533
+"No description available.",334541
+"No description available.",334543
+"No description available.",334547
+"No description available.",334548
+"No description available.",334549
+"No description available.",334550
+"No description available.",334551
+"No description available.",334552
+"No description available.",334555
+"A possible chassis fan falure has been detected. Recommended Action: Fan could need replacement.",335000
+"A card voltage is out of tolerance. Recommended Action: Card could need replacement.",335001
+"A possible memory falure has been detected.",335003
+"A possible memory falure has been detected.",335004
+"PS failure or missing.[msg:%s]",335011
+"Not Supported. Non Supported PS",335013
+"Fan Tray Removed.",335015
+"No description available.",335300
+"No description available.",335301
+"No description available.",335303
+"Unable to write to /etc/dhcpd.conf. Possible reason being file system is full.Recommended Action: Contact your support provider",335500
+"Unexpected condition occurred in Spectrum process",336001
+"Unexpected condition occurred in Spectrum process",336002
+"Spectrum process server socket is stuck. Recreating it.",336008
+"Unexpected condition occurred in the rtpa process",339301
+"Unexpected condition occurred in the rtpa process",339302
+"No description available.",341005
+"The AP is configuring LED mode.",341023
+"The AP is saving configuration .",341026
+"The AP is initialing configuration .",341027
+"The AP is upgrading image.",341028
+"The AP is upgrading image.",341029
+"The AP is upgrading image.",341030
+"The AP is loading configuration.",341031
+"The AP is loading configuration.",341033
+"The AP is saving configuration.",341034
+"The AP is upgrading image",341036
+"The AP is upgrading image.",341037
+"The AP is upgrading image.",341038
+"The AP is upgrading image.",341039
+"The AP is upgrading image.",341040
+"The AP is upgrading image.",341041
+"The AP is upgrading image.",341042
+"The AP is setuping image.",341044
+"The AP is upgrading image.",341047
+"The AP is upgrading image.",341048
+"The AP is upgrading image.",341049
+"The AP is setuping image.",341050
+"The AP is setuping image.",341051
+"The AP is setuping image.",341052
+"The AP is upgrading image.",341054
+"The AP is upgrading image.",341055
+"The AP is upgrading image.",341056
+"The AP is upgrading image.",341058
+"The AP is setting kernal route",341063
+"The AP is setting kernal route.",341064
+"The AP is creating tunnel.",341067
+"The AP is creating tunnel.",341068
+"The AP is creating tunnel.",341070
+"The AP is creating SSID.",341072
+"The AP is creating SSID.",341074
+"The AP is configuring ACL.",341081
+"The AP is configuring ACL.",341082
+"The AP is configuring ACL.",341083
+"The AP is upgrading image.",341085
+"The AP is upgrading image from awc.",341089
+"The AP is upgrading image from awc.",341090
+"The AP is upgrading image from awc.",341092
+"The AP is upgrading image.",341093
+"The AP is upgrading image.",341094
+"The AP is upgrading image.",341095
+"Handle papi message.",341107
+"Handle papi message",341108
+"AP is setting cert.",341109
+"AP is setting cert.",341110
+"AP is setting cert.",341111
+"AP is setting gre name.",341113
+"AP is setting gre name.",341114
+"AP is setting gre name.",341116
+"AP is creating session.",341118
+"Handle papi message.",341119
+"Station sync.",341122
+"Station sync.",341123
+"AP is configuring arp entry.",341130
+"AP is checking configuration.",341132
+"AP is receiving stats sync.",341133
+"AP parse arguments from airwave.",341141
+"AP receive upgrade message from airwave to update image.",341143
+"AP is executing ""show support-commands"".",341144
+"Fail to add ids radio.",341163
+"ASAP to CLI socket open failed",341210
+"ASAP to CLI socket ioctl failed.",341211
+"ASAP to CLI socket bind failed.",341212
+"ASAP to CLI socket recv failed.",341213
+"L2 Roam failed at home network.",341214
+"Unexpected condition occurred in mDNS proxy Recommended Action: Contact tech-support.",343000
+"Unexpected condition occurred in mDNS proxy (mdns) Recommended Action: Contact tech-support.",343001
+"Unexpected condition occurred in the GSM Manager process (gsmmgr)",345301
+"Unexpected condition occurred in the GSM Manager process (gsmmgr)",345302
+"Failed to change the HTTPD sygate firewall rewrite configuration in the HTTPD configuration fileRecommended Action: If error persists",350000
+"Failed to verify the HTTPD certificateRecommended Action: Replace the HTTPD certificate with a valid one",350007
+"System failed to allocate memory at the specified locationRecommended Action: Use the show memory and show process commands to monitor memory usage. If the problem persist",399800
+"This log indicates that we encountered an internal system error. Recommended Action: Contact your support provider",399801
+"This log indicates that application processes in the system encountered an error sending messages to each other. This could be a transient condition and the problem might go away.Recommended Action: If the problem persists",399802
+"This log indicates that we encountered an internal system error. Recommended Action: Contact your support provider",399803
+"This log indicates that the operation timed out while sending a data packet",399805
+"This log indicates that a configuration error has occurred.",399807
+"This log indicates that the system encountered a problem while opening/ communicating with a system socket",399810
+"Application processes in the system encountered an error sending message to the datapath. This could be a transient condition and the problem might go awayRecommended Action: If the problem persists",399812
+"An application processes on the controller encountered an error sending message to AP. This could be a transient condition and the problem might go away.Recommended Action: If the problem persists",399813
+"This is a transient error. This typically occurs if communication between master/local is lost and a new session established",399816
+"There was an error accessing the hardware data Recommended Action: If the problem persists",399822
+"This is a webserver internal error log",399827
+"This is a webserver error log.",399832
+"This log indicates that an AP process failed to send a trap to the controller",399833
+"This log indicates that we were unable to close a system file. This indicates an internal system error",399834
+"This is an system error log.Warning MessagesTable 8 Warning System MessagesError IDMessage and Description",399840
+"An existing key could not be decrypted.",300104
+"The indicated feature limit was capped at the maximum allowable value even though more licensed capacity is available.",300128
+"Licenses sent by the server will expire in the stated number of days. At this level",300145
+"Licenses contributed by the client will expire in the stated number of days. At this level",300158
+"PAPI_Alloc failed when trying to send the feature table to the processes.",300196
+"This shows an internal error message.",300198
+"The system reported an error while initializing the SNMP process and it's unable to bind to the SNMP port. As a result",301010
+"No description available.",301030
+"A warning message indicating comparison failed for an octet string type object.",301033
+"A warning message indicating that string data length exceeds a supported range typically the maximum characters supported by an SNMP OctetString type object.",301034
+"No description available.",301039
+"An OID string exceeds the maximum supported length for an OID.",301042
+"No description available.",301043
+"The TRAPD process is unable to bind to the SNMP trap port Recommended Action: If the error persists",301249
+"No description available.",301134
+"No description available.",301268
+"No description available.",303022
+"This message indicates AP is running out of memory. AP will reboot if the condition persistsRecommended Action: Contact your support provider",303062
+"Unexpected condition occurred in the station manager (stm). Recommended Action: Contact your support provider",304002
+"No description available.",304004
+"No description available.",304005
+"No description available.",304009
+"No description available.",304011
+"No description available.",304013
+"No description available.",304014
+"No description available.",304015
+"No description available.",304016
+"No description available.",304017
+"No description available.",304018
+"No description available.",304019
+"No description available.",304020
+"No description available.",304022
+"No description available.",304023
+"No description available.",304024
+"No description available.",304025
+"No description available.",304026
+"No description available.",304027
+"No description available.",304028
+"No description available.",304029
+"No description available.",304033
+"The application is waiting for the database to be ready for access.",304044
+"This log indicates that there was an issue when a command was executed on the user database.",304048
+"This log indicates that the client blacklist was purged by the administrator.",304050
+"No description available.",305012
+"No description available.",305013
+"No description available.",305014
+"No description available.",305015
+"No description available.",305017
+"No description available.",305018
+"No description available.",305019
+"OS version may be incompatible.",305020
+"OS version may be incompatible.",305021
+"No description available.",305022
+"No description available.",305023
+"No description available.",305024
+"No description available.",305028
+"A request to provision an indoor mesh AP failed as the platform limit has been reached.",305029
+"Failed to create the mesh recovery profile. No recovery-cluster is available in the event that no potential parents matching the provisioned clusters can be found.",305030
+"No description available.",305032
+"No description available.",305033
+"No description available.",305034
+"No mesh licenses are available - ignoring mesh provisioning request",305035
+"No description available.",305036
+"No description available.",305038
+"A request to provision an outdoor mesh AP failed as the platform limit has been reached.",305039
+"No description available.",305040
+"No description available.",305041
+"No description available.",305042
+"No description available.",305043
+"An unsecure AP is trying to access the controller from an IP address that is not allowed for automatic certificate provisioning.",305046
+"An unsecure SAP message was received from a secure AP",305047
+"An unsecure AP message was received. The message will be dropped.",305048
+"An unsecure AP has been denied access to the controller by the the Control Plane Security mechanism.",305049
+"No description available.",305050
+"The given virtual AP was configured for the given AP but could not be created for the given reason.",305051
+"The AP was unable to preload the new image to flash. The preload will be retried after a delay.",305054
+"No description available.",305056
+"An unsecure AP has been denied access to the controller by the the Control Plane Security mechanism which does not support IPV6.",305057
+"AP [name:%s]: Drop hello message from [ip:%s] with different MAC",305058
+"No description available.",305101
+"Warning message from Pub/Sub server that a message for non-existent service was received and will be dropped",306510
+"Master-local cannot exchage heartbeat",307016
+"Local is unable to contact/download config from Master",307019
+"Local is unable to download latest instance of config from master. Local after waiting for configrable time(5 min) will push last learnt config it got from Master",307385
+"This shows a warning message in IF-MAP Client.",309003
+"This indicates IF-MAP Client daemon process is not able to create dispatcher.",309012
+"This indicates IF-MAP Client daemon process is not able to initialize PAPI.",309013
+"This indicates IF-MAP Client daemon process is not able to initialize SAPI.",309014
+"This indicates error in sending PAPI messsage.",309015
+"This indicates a malformed message is received.",309016
+"This indicates current IF-MAP state is changed and is broadcasted .",309017
+"This indicates failure in getting CPPM Profile data",309024
+"This indicates failure in calling ncfg_sync.",309028
+"This indicates Request Queue is Full and the request can not be processed.",309029
+"This indicates a failure to esatblish session to an IF-MAP server.",309043
+"This indicates a failure to esatblish session to an IF-MAP server.",309044
+"This indicates a failure to disconnect to an IF-MAP server.",309046
+"This indicates a failure to disconnect to an IF-MAP server.",309047
+"This indicates a failure to publish to an IF-MAP server.",309049
+"This indicates a failure to publish to an IF-MAP server.",309050
+"No description available.",311000
+"No description available.",311002
+"No description available.",311003
+"No description available.",311004
+"No description available.",311006
+"No description available.",311007
+"No description available.",311010
+"No description available.",311011
+"No description available.",311012
+"No description available.",311026
+"ESI pinger is used to monitor health of external servers by sending ICMP ECHO requests. Initialization of the pinger subsystem failed. ESI process will restart to correct this.",312102
+"System encountered an internal error while creating queues to process notification from external servers. ESI process will restart",312103
+"Configured IPv6 interface address is duplicate and is already in use in the network.",313185
+"A route could not be inserted because system could not find a matching interface for the gateway IP addressRecommended Action: Check interface IP address configuration",313256
+"A route could not be inserted because system could not find a matching interface for the gateway IP addressRecommended Action: Check interface IP address configuration",313301
+"A VRRP error message indicating that there was a failure while sending VRRP Advertisement",313320
+"An VRRP error message indicating that VRRP could not transition from BACKUP TO MASTER state",313321
+"VRRP state has changed",313328
+"Warning indicating that the VRRP Backup missed 3 Advertisements from Master",313331
+"Warning indicating that the VRRP Master received Advertisement with higher priority",313332
+"System is detecting if internal queue engine is stuck and needs restarting Recommended Action: Contact your support provider66 | System Messages ArubaOS 6",314807
+"No description available.",316001
+"No description available.",316017
+"No description available.",316041
+"No description available.",316042
+"No description available.",316063
+"No description available.",316068
+"No description available.",316080
+"No description available.",316081
+"No description available.",316092
+"No description available.",316101
+"No description available.",316102
+"No description available.",316110
+"No description available.",316111
+"No description available.",316208
+"No description available.",316226
+"No description available.",316230
+"No description available.",316231
+"No description available.",316232
+"Cannot find Probe. At:[fn:%s] line:[line:%d] Probe [mac:%m]Recommended Action: This log indicates that the WMS process was notified by Station Management that a probe is down",316234
+"This log indicates that there was an issue when a command was executed on the event database.",316247
+"This log indicates that there was an issue when a file open command was executed.",316260
+"This log indicates that the gateway IP of the controller may not be correctly configured.",316261
+"This log indicates that the MAC address of the controllerø€™s gateway could not be determined.",316262
+"This log indicates that there was an issue while processing an internal message to retrieve bridge table entries.",316263
+"This log indicates that there was an issue while processing an internal message to retrieve bridge table entries.",316264
+"This log indicates that the MAC addresses owned by the controller could not be determined.",316265
+"This log indicates that the RAP WML Table profile could not be found.",316266
+"This log indicates that current state in the WMS module shows that WMS is reaching capacity",316267
+"Notification message to indicate reverting to default certificate",325025
+"No description available.",326004
+"No description available.",326070
+"No description available.",326073
+"No description available.",326083
+"No description available.",326084
+"No description available.",326085
+"No description available.",326096
+"No description available.",326157
+"No description available.",326158
+"No description available.",326159
+"No description available.",326200
+"No description available.",326201
+"No description available.",326202
+"No description available.",326229
+"This log indicates that the configuration has changed for the feature Learn Wired MACs at Controller.",326279
+"No description available.",330000
+"No description available.",334526
+"No description available.",334527
+"No description available.",336007
+"No description available.",339307
+"No description available.",341004
+"The image version on the AP is not the same as that on the virtual controller. The AP will download a new image and reboot.",341011
+"The AP is downloading a new image to store in flash.",341012
+"The AP is writing a new image in flash. When this process completes",341013
+"The AP is loading configuration.",341032
+"The AP is converting ap.",341098
+"Handle papi message.",341102
+"Handle papi message.",341103
+"Handle papi message.",341104
+"Master send upgrade url to slave.",341149
+"Learning AMP info from DHCP.",341159
+"Send not allowed msg to an AP.",341164
+"Send image match msg to an AP.",341165
+"Print interface ip.",341166
+"Uplink state changed.",341167
+"Add new uplink",341169
+"Del uplink.",341170
+"Active 3g uplink.",341171
+"Find enet0 uplink name.",341172
+"Print current uplink.",341173
+"Pick the highest uplink.",341174
+"Connect with current uplink.",341175
+"Probe too long.",341176
+"Try next uplink.",341177
+"Setup ip for uplink interface.",341181
+"Setup vpn for rap conversion.",341182
+"Downloading rap image via vpn.",341183
+"Downloading rap image via vpn timeout.",341184
+"Retrieving ip address from an interface.",341185
+"loading AP configuration.",341194
+"Send ap config to slave.",341199
+"Apply enet config.",341205
+"Command syntax error.",341206
+"Max ssid supportArubaOS 6",341207
+"Deactive SSID",341208
+"No description available.",345307
+"No description available.",350001
+"This is a webserver system warning log.",399826
+"This is a webserver system warning log.",399831
+"This is an webserver system warning log.Notice MessagesTable 9 Notice System MessagesError IDMessage and Description",399838
+"The system has determined that the clock has been set too far back",300106
+"Some evaluation licenses will expire in the stated number of days. For feature licenses",300107
+"Evaluation licenses have expired and the controller is adjusting licensed limits as necessary.",300115
+"After adding a license that requires a configuration file update",300132
+"No description available.",301246
+"No description available.",301262
+"Request from SNMP server to application timed out.",301406
+"No description available.",304006
+"No description available.",304007
+"No description available.",304031
+"NEC 902il compatibility mode was enabled or disabled",304032
+"This log indicates the route point is an IP tunnel",304056
+"Notification of installed VPN",306401
+"Master waited long enough to hear again from local controller",307028
+"No description available.",307310
+"No description available.",311015
+"Transferring panic information file to server Recommended Action: Contact your support provider",311024
+"This message indicates the state of ESI license. The state is either enabled or disabled",312104
+"Number of configured external servers has exceeded capacity. Review your licensing requirements",312105
+"No description available.",314801
+"No description available.",316018
+"No description available.",316020
+"No description available.",316021
+"No description available.",316044
+"No description available.",316045
+"No description available.",316103
+"A network destination was created/modified/deleted",325001
+"A network service was created/modified/deleted",325002
+"An access-list was created/modified/deleted",325003
+"A User Role was created/modified/deleted",325004
+"An access-list was configured in a role",325005
+"An access-list was removed from role",325006
+"Added VLAN",325007
+"A feature is enabled or disabled based on license key",325008
+"This shows the limit enforced by the licensed feature",325009
+"Admin authentication was enabled or disabled",325013
+"New server group was assigned for admin authentication",325014
+"New default role was assigned for admin authentication",325015
+"User idle timeout is set",325018
+"User idle timeout is disabled. L3 state will be maintained in spite of inactivity.",325019
+"User fast aging was enabled or disabled. If enabled",325021
+"An IPv6 Extender Header Alias was created/modified/deleted",325027
+"No description available.",326009
+"No description available.",326010
+"No description available.",326011
+"No description available.",326012
+"No description available.",326013
+"No description available.",326014
+"No description available.",326067
+"No description available.",326077
+"No description available.",326091
+"No description available.",326101
+"No description available.",326102
+"No description available.",326106
+"No description available.",326107
+"No description available.",326148
+"No description available.",326205
+"No description available.",326206
+"No description available.",326215
+"No description available.",326218
+"No description available.",326219
+"No description available.",326220
+"No description available.",326266
+"No description available.",326271
+"No description available.",326272
+"No description available.",326273
+"No description available.",326274
+"No description available.",326275
+"No description available.",326276
+"No description available.",326277
+"No description available.",326278
+"No description available.",330002
+"No description available.",330003
+"A module has completed synchronization initialization",330100
+"A module has set internal synchronization state",330101
+"An internal module will synchronization with another",330102
+"An internal module will synchronization with another",330103
+"An internal module has completed synchronization with another module",330104
+"No description available.",341003
+"The AP is upgrading image.",341043
+"The AP is upgrading image.",341045
+"The AP is upgrading image.",341046
+"The AP is setuping image.",341053
+"The AP is upgrading image.",341057
+"The AP is upgrading image.",341097
+"Upimage related messages.",341147
+"Master check image upgrade for a slave.",341148
+"The AP starts to upgrade image.",341150
+"The AP starts to download image.",341151
+"Set AP image err state",341152
+"Master send upgrade write flash to slave.",341153
+"Send upgrade success to Master.",341154
+"Send download success to Master.",341155
+"Send image err state to Master.",341156
+"AP image upgrade timeout.",341157
+"AP image upgrade timeout.",341158
+"Non-Wi-Fi device is detected.",341201
+"Non-Wi-Fi device is removed.",341202
+"System related notice messages logged in the mDNS proxy (mdns)",343006
+"This is an webserver system notice log.",399825
+"This is an webserver system notice log.Information MessagesTable 10 Information System MessagesError IDMessage and Description",399830
+"Mobility service is enabled with the router mobile commandø€ù",300001
+"Mobility service is enabled with no router mobile command",300002
+"Mobile IP service has completed initialization and is ready to handle mobile clients",300003
+"Information message mobileip prints to monitor proper Initialization78 | System Messages ArubaOS 6",300011
+"The license manager is starting. The expiry interval for evaluation licenses is displayed",300100
+"During a model upgrade",300105
+"A new license database was created successfully at system initialization time.",300118
+"All licenses were successfully deleted.",300122
+"This message indicates the OS variant of the operating system",300126
+"This means when the controller is upgraded to the latest image",300139
+"Successfully exported the license database.",300143
+"Successfully imported the license database.",300148
+"Deleting the key for limit license.",300165
+"Deleting the key for feature license.",300166
+"Enabling the limit license key.",300169
+"Enabling the feature license key.",300170
+"Disabling the limit license key.",300171
+"Disabling the feature license key.",300172
+"License database is being recreated.",300173
+"Successfully created a new License Database",300175
+"Creating the license database...",300186
+"All licenses about to be deleted.",300191
+"The transport service is starting.",300200
+"The system received a request to sync its configuration with the MMS server",300202
+"The system received a request to sync its configuration with the MMS server",300203
+"No description available.",301000
+"No description available.",301001
+"BootTime Table entry missing",301004
+"No description available.",301226
+"No description available.",301228
+"No description available.",301252
+"No description available.",301258
+"No description available.",301260
+"No description available.",301263
+"No description available.",301264
+"No description available.",301265
+"No description available.",301269
+"No description available.",301270
+"No description available.",301271
+"No description available.",301272
+"No description available.",301273
+"No description available.",301274
+"No description available.",301275
+"No description available.",301276
+"No description available.",301277
+"No description available.",301278
+"No description available.",301289
+"No description available.",301311
+"No description available.",301328
+"No description available.",301329
+"No description available.",301335
+"No description available.",301340
+"No description available.",301341
+"The controller was unable to transition to a new MMS server since itø€™s not being configured.Recommended Action: Please make sure the MMS server is configured correctly under the mobility-manager command.",301400
+"The controller successfully transitioned to the new MMS master server.",301401
+"The transition to the new MMS master server was cancelled because the old master is still communicating with the controller.Cause: This can happen if the link between the MMS servers have been lost and both servers believe they are the master.Recommended Action: Please make sure MMS server redundancy is working correctly.",301402
+"The controller has received a communication request from a new MMS master and is in the process of transitioning to the new MMS master.",301403
+"While in the transition process",301404
+"SNMP agent message for when we set a new active MMS server.",301408
+"An error has occurred during the validation of the MMS config sync request",301437
+"Process Manager is active and will start monitoring other processes. If Reboot flag is enabled",303002
+"No description available.",303092
+"No description available.",304037
+"No description available.",304038
+"No description available.",304042
+"No description available.",304043
+"No description available.",304057
+"STM restarts and notifies datapath to clean up users.",304068
+"The controller has lost contact with the access point.",305003
+"A message was received from an AP which was not registered with the controller. The AP will rebootstrap.",305005
+"The AP has registered with the controller after rebooting.",305006
+"The AP has (re)registered with the controller without rebooting.",305007
+"The AP attempted to register with this controller but was redirected to a different controller based on the configured lms-ip.",305008
+"The ArubaOS image version on the AP is not the same as that on the controller. The AP will download a new image and reboot.",305009
+"The AP is downloading a new ArubaOS image to store in flash. When this process completes",305010
+"The AP is rebooting.",305011
+"Creating the mesh recovery profile for use when no potential parents matching the provisioned clusters can be found.",305031
+"The v6 AP attempted to register with this controller but was redirected to a different controller based on the configured lms-ipv6.",305053
+"IKE Daemon synced with Configuration manager",306404
+"IKE Daemon synced with L2/L3 module",306405
+"IP pool configuration updated",306411
+"No description available.",306601
+"No description available.",306602
+"Controller switch IP is changed",307039
+"Controller got a new role",307040
+"Local Switch is still using old PAPI messaging system for configuration download. It is incompatible with the current master controller AirOS version and requires an upgrade.",307096
+"Local is unable to connect(TCP) to MasterRecommended Action: Verify if there is any firewall or network connectivity issue",307103
+"This displays cfgm-ipsec configuration",307218
+"Local is unable to establish connection (TCP) with master.",307242
+"Local TCP connection to Master is down",307244
+"This shows an informational message in IF-MAP Client.",309004
+"his indiactes IF-MAP Client daemon process is initialized.",309011
+"This indiactes a session to an IF-MAP server is established.",309042
+"This indiactes MAPC-API is intialized.",309900
+"This indiactes CPPM IF-MAP is active.",309901
+"his indiactes CPPM IF-MAP is inactive.",309902
+"No description available.",311001
+"IP multicast process is ready to accept input84 | System Messages ArubaOS 6",312001
+"ESI module is ready to interface with external services",312101
+"System is initializing 802.1Q frame handling",313011
+"System is converting a dynamically registered VLAN to static",313012
+"System is creating a VLAN",313014
+"System is adding a tunnel to VLAN",313023
+"While attempted to add a tunnel to a VLAN",313025
+"VLAN interface does not exist",313027
+"System is removing a tunnel from VLAN",313029
+"System did not find VLAN configuration",313030
+"System is retrieving tunnel information for a VLAN",313037
+"This is a informational message indicating native VLAN id for a port",313044
+"System is setting native VLAN ID for a port",313045
+"This is an information message indicating system MAC address",313093
+"System added a VLAN",313119
+"System deleted a VLAN",313120
+"Interface IP address conflicts with loopback address",313127
+"Loopback address cannot be part of management port subnet",313128
+"Interface IP address conflicts with Loopback AddressArubaOS 6",313129
+"Interface IP address conflicts with management port address",313132
+"Interface IP address cannot be part of Management Subnet",313134
+"System detected a conflict in interface IP addresses",313135
+"System detected a conflict in interface IP addresses",313136
+"System updated an ARP entry",313140
+"Local route already exists for a static route",313142
+"Route conflicts with a tunnel IP address",313143
+"VLAN state cannot be set inactive because VLAN has tunnels configured",313149
+"System has marked an interface as down. For this interface",313152
+"A new route was added",313155
+"A route was updated",313156
+"A route was deleted",313157
+"No description available.",313159
+"A new route was added",313169
+"A route was updated",313170
+"A route was deleted86 | System Messages ArubaOS 6",313171
+"Proxy ARP configuration for an interface has changed",313173
+"Enabled PIM protocol for a VLAN",313174
+"Disabled PIM protocol for a VLAN",313175
+"Enabled IGMP protocol for a VLAN",313176
+"Enabled IGMP protocol snooping on a VLAN",313177
+"Disabled IGMP protocol for a VLAN",313178
+"Enables IPv6 multicast protocol MLD",313179
+"Enables IPv6 multicast protocol MLD snooping",313180
+"Disables IPv6 multicast protocol MLD",313181
+"Interface IPv6 address conflicts with Loopback Address",313187
+"Local route already exists for a static route",313188
+"Interface IPv6 address conflicts with loopback address",313189
+"Loopback address cannot be part of management port subnet",313190
+"System detected a conflict in interface IPv6 addresses",313191
+"Interface IPv6 address conflicts with loopback address",313192
+"The PPPoE session has terminated regularly.",313216
+"System is sending terminate request to PPPOE daemon for processing configuration changes",313217
+"PPPOE daemon (child) startedArubaOS 6",313220
+"PPPoE user name updated",313221
+"PPPoE user name removed",313222
+"PPPoE password updated",313223
+"PPPoE password removed",313224
+"PPPoE service name updated",313225
+"PPPoE service name removed",313226
+"PPPoE daemon could not be restarted because PPPoE VLAN interface is down",313228
+"PPPoE client enabled on VLAN",313229
+"Dynamic IP: PPPoE restarted",313238
+"Dynamic IP: DHCP restarted",313239
+"PPPoE or DHCP process cannot be restared because Dynamic IP is not enabled",313240
+"A static entry could not be added to ARP table because there is no routing nterface registered for a subnet to which this address belongs",313242
+"System is selecting a new best route",313246
+"Route entry successfully inserted in the route table",313249
+"System could not create route in the kernel because interface was down",313255
+"A route entry was deleted (possibly because IP interface went down)",313258
+"System is adding a route88 | System Messages ArubaOS 6",313266
+"System is deleting a route",313267
+"System is updating a route",313268
+"System cannot process link state change because initialization was not completed",313269
+"System cannot process link state change because of resource limitations",313270
+"System cannot process link state change because initialization was not completed",313281
+"System cannot process link state change because of resource limitations",313282
+"System is selecting a new best route",313291
+"Route entry successfully inserted in the route table",313294
+"System could not create route in the kernel because interface was down",313300
+"A route entry was deleted (possibly because IP interface went down)",313303
+"VRRP is sending role change event to configuration manager",313330
+"This message indicates initialization state of a card along with its port count",313341
+"SEC MAC address for an interface was set successfully",313350
+"A card has been inserted",313360
+"This message displays Xsec settings for the port",313388
+"No description available.",313390
+"A port running Xsec protocol was added to VLANArubaOS 6",313399
+"There is an IP address conflict. Check configuration",313434
+"This message indicates that the tunnel is enabled because of the arrival of a heartbeat message",313443
+"This message indicates that the tunnel is disabled because of lack of keepalive responses",313445
+"This message indicates that the tunnel state is changed because of VRRP",313447
+"The PPPD child process for cellular/modem devices have exited. It will be restarted as necessary",313451
+"The PPPD child process was successfully terminated by our request",313453
+"The PPP subsystem have requested to stop the pppd process",313454
+"Child PPP Daemon was successfully started for calling the service provider",313457
+"Internal user config data had been removed for the interface probably due to a race condition",313465
+"FPAPPS has received a USB profile update describing how to classify the USB device",313500
+"FPAPPS has received a modeswitch update describing how to modeswitch the USB device",313501
+"The USB device has been issued a mode switch command to switch into data mode",313502
+"L2/L3 module detected an USB insert/remove event",313504
+"This syslog is used for tracking the progress of PPP dialing session",313505
+"This syslog is used for tracking the progress of USB device detection90 | System Messages ArubaOS 6",313506
+"This syslog is used for tracking the progress of uplink manager",313507
+"A line card was removed from the system",314802
+"This message indicates presense or absense of optical card on select systems",314803
+"System detected an unknown line card",314804
+"A line card was detected",314805
+"No description available.",314813
+"This log indicates that port configuration is not valid for this slot",315007
+"The configured XSec key isnø€™t of correct length",315009
+"No Xsec PTP information to show since the feature is not enabled on this port.",315030
+"No Xsec PTP information to show since the Xsec MAC list is empty.",315031
+"The IPSec route has been inserted into the configuration table",315051
+"SNMP Agent received an unknown object ID to process",315157
+"No description available.",316000
+"No description available.",316003
+"No description available.",316004
+"No description available.",316024
+"No description available.",316025
+"No description available.",316026
+"No description available.",316043
+"No description available.",316046
+"No description available.",316047
+"No description available.",316048
+"No description available.",316049
+"No description available.",316050
+"No description available.",316061
+"No description available.",316064
+"No description available.",316069
+"No description available.",316070
+"No description available.",316090
+"No description available.",316091
+"No description available.",316093
+"No description available.",316095
+"No description available.",316096
+"No description available.",316104
+"No description available.",316105
+"No description available.",316106
+"No description available.",316115
+"No description available.",316116
+"No description available.",316117
+"No description available.",316202
+"No description available.",316220
+"No description available.",316227
+"An AP Classification Rule has been created",316241
+"No description available.",316242
+"No description available.",316243
+"No description available.",316244
+"No description available.",316245
+"No description available.",316250
+"No description available.",316251
+"Restarting the NTP daemon as result of command ø€˜process restart ntpdø€™ArubaOS 6",317001
+"The NTP daemon will be restarted normally",317002
+"Publish object creation/deletion message to another module",325000
+"Authentication manager has completed startup synchronization with another module",325010
+"Authentication manager on the local controller has started or finished processing configuration snapshot",325011
+"Air Monitor is starting",326000
+"No description available.",326075
+"No description available.",326088
+"No description available.",326097
+"PAPI Send failed",326098
+"No description available.",326129
+"No description available.",326130
+"No description available.",326140
+"No description available.",326141
+"No description available.",326145
+"No description available.",330004
+"No description available.",330005
+"Exiting recovery mode to try and find potential parents matching provisioned clusters.",330206
+"Received association request from an already associated child. Clearing old state before processing the new association request.",330207
+"The controller detected an invalid regulatory domain format in the system hardware and has reinitialized the values. This is normal behavior for an old hardware upgrading from an older release.Recommended Action: No action needs to be taken.",334002
+"The controller has set the country code to the restricted value stored in the system hardware.",334003
+"The controller has set the country code to the value stored in the configuration file.",334004
+"The controller has saved country values in the system hardware. This is normal behavior when upgrading from an older release.",334005
+"The controller has set the country code to a subdomain of the master ` regulatory domain stored in the system hardware.",334006
+"Communication Failure with one of profile manager's client",334007
+"PhoneHome service is enabled with the router mobile commandø€ù",334201
+"PhoneHome service is enabled with the no router mobile command",334202
+"PhoneHome service has completed initialization and is ready to handle mobile clients",334203
+"PhoneHome service is starting to initialize.Cause: This message is always logged regardless if phonehome is enabled or not with the phonehome enable commandø€ù",334207
+"PhoneHome is terminating particular transaction; this may happen to create room for new transactionArubaOS 6",334210
+"PhoneHome is creating new transaction",334211
+"PhoneHome is deleting successfully uploaded transaction",334212
+"PhoneHome is deleting successfully uploaded transaction",334214
+"PhoneHome is unable to post transaction after multiple attempts.Recommended Action: Please check e-mail/SMTP",334215
+"PhoneHome process has been successfully setup on the controller",334230
+"Initializing NCFG for UTILITY_PROCESS",334401
+"Received PAPI message",334405
+"Received group_change_notify message from NCFG",334407
+"Failed to retrieve ncfg_group",334408
+"Received group_delete_notify message from NCFG",334409
+"Received profmgr_event_notify message from NCFG",334410
+"No description available.",334556
+"Received an action request on Back Plane",335005
+"Fan returned to normal.",335009
+"Power Supply is back to normal.",355010
+"PS failure or missing",335012
+"Fan Tray Inserted.",335016
+"No description available.",335302
+"No description available.",336003
+"No description available.",336004
+"No description available.",337001
+"No description available.",339303
+"No description available.",339304
+"No description available.",341002
+"he virtual controller has lost contact with the access point.",341009
+"The AP has registered with the virtual controller.",341010
+"The AP is rebooting.",341014
+"The AP is in specified regulatory domain.",341015
+"The AP is configuring auth server.",341016
+"The AP is configuring auth server.",341017
+"The AP is configuring auth server.",341018
+"The AP is configuring auth server.",341019
+"The AP is configuring termination server.",341020
+"The AP is configuring LDAP server",341021
+"The AP is setting boot partition id.",341035
+"The AP is setting acl.",341059
+"The AP is setting acl.",341060
+"The AP is setting acl.",341061
+"The AP is setting acl.",341062
+"The AP is setting kernal route.",341065
+"The AP is setting kernal route.",341066
+"The AP is creating tunnel.",341069
+"The AP is creating tunnel.",341071
+"The AP is creating SSID.",341073
+"The AP is creating SSID.",341075
+"The AP is creating SSID.",341076
+"The AP is configuring ACL.",341077
+"The AP is configuring ACL.",341078
+"The AP is configuring ACL.",341079
+"The AP is configuring ACL.",341080
+"The AP is configuring ACL.",341084
+"The AP is upgrading image",341086
+"The AP is upgrading image.",341087
+"The AP is upgrading image.",341088
+"The AP is upgrading image.",341096
+"User authenticate.",341099
+"Corp configuration.",341100
+"Cli command.",341101
+"Handle papi message.",341105
+"Handle papi message.",341106
+"AP is setting cert.",341112
+"AP is setting gre name.",341115
+"AP is setting gre name.",341117
+"SNMP action.",341120
+"SNMP action.",341121
+"AP is setting SSID.",341128
+"AP is setting SSID.",341129
+"AP is removing alerts.",341134
+"Master in network changed",341135
+"Slave check image with master.",341136
+"SNMP action.",341139
+"Airwave upgrade image.",341140
+"AP upload certificate for radius server.",341145
+"AP upload certificate for radius server.",341146
+"Send reboot cmd.",341160
+"Send reboot ack cmd.",341161
+"Receive reboot ack.",341162
+"Print the uplink info.",341168
+"clid send papi message to awc.",341178
+"clid receives message from awc.",341179
+"Send mesh cfg.",341180
+"Find uplink fail.",341186
+"Add an AP to the whitelist.",341187
+"Delete an AP from the whitelist.",341188
+"Discover client request.",341189
+"Found client response",341190
+"[func:%s]: hap req for [mac:%s] [fapip:%s] [vcip:%s] [oldapip:%s] [rtid:%d] [vlan:%d] [vapvlan:%d].HAP request.",341191
+"HAP Ack.",341192
+"Foreign client info.",341193
+"Client Delete Request.",341195
+"Client Delete Notification.",341196
+"Send register/heartbeat msg to vc.",341197
+"Receive register/heartbeat msg from slave.",341198
+"Foreign Client re-home.",341203
+"Foreign Client re-home.",341204
+"MIP tunnel down.",341209
+"L3 Subnet Update.",341215
+"Awc logout.",341216
+"Awc connect successfully.",341217
+"Awc login successfully.",341218
+"Awc identify successfully.",341219
+"L2 Roam session requested.",341220
+"Foreign sta info",341221
+"Remote sta info.",341222
+"System related info messages logged in the mDNS proxy (mdns)",343005
+"No description available.",345303
+"No description available.",345304
+"No description available.",350002
+"No description available.",350003
+"No description available.",350004
+"Not configuring the switch ip can result in breaking the certificate configuration",350006
+"This log indicates that a non-critical configuration error has occurred.",399808
+"This is an internal system debugging log.",399815
+"This log indicates that the system application received an undefined operation code. The operation will be ignored.",399817
+"This log indicates that the License check failed when parsing the configuration file.",399818
+"This is an webserver system info log.",399824
+"This is an webserver system info log.",399829
+"This log indicates that we encountered an internal system error",399899
+"No description available.",300004
+"Mobile IP service is starting to initialize. This message is always logged regardless if mobility is enabled or not with the router mobile command",300010
+"About to start instantiating config fragments for the feature",300138
+"No description available.",300140
+"Executing the command",300149
+"Matched the key",300150
+"Allowing the second temp key since timestamp is different",300151
+"Constraining the license limits to max. limits as the values configured through the license key are greater the allowed maximum limits.",300153
+"This key has already been installed once",300159
+"Allow reinstall since icount is less than the max. limit",300160
+"Disallow reinstall since icount reached the max. limit",300161
+"Not deleting the key as it is already disabled",300167
+"Display time expiry",300168
+"Displaying the licenses",300176
+"Stopping the display of the licenses",300177
+"Displaying the number of licensesArubaOS 6",300178
+"Displaying the License DB existing version.",300184
+"License DB already exists.",300185
+"The command for creating the LicenseDB",300188
+"Setting the activation status of all licenses",300192
+"Marking the key as inactive",300193
+"Displays the Mesh AP License Key",300194
+"This shows an internal debug message",300197
+"General debug log for CTS",300204
+"No description available.",301002
+"No description available.",301248
+"No description available.",301255
+"No description available.",301256
+"No description available.",301257
+"No description available.",301266
+"No description available.",301281
+"No description available.",301282
+"No description available.",301283
+"No description available.",301284
+"No description available.",301285
+"No description available.",301286
+"No description available.",301293
+"No description available.",301295
+"No description available.",301313
+"No description available.",301315
+"No description available.",301321
+"No description available.",301322
+"No description available.",301323
+"No description available.",301324
+"No description available.",301325
+"No description available.",301326
+"No description available.",301327
+"No description available.",301331
+"No description available.",301334
+"No description available.",301336
+"No description available.",301342
+"No description available.",301343
+"SNMP agent debug message for when we notify WMS of new active MMS server.",301407
+"No description available.",301419
+"No description available.",301420
+"No description available.",301421
+"No description available.",301427
+"No description available.",301435
+"No description available.",303006
+"No description available.",303007
+"No description available.",303010
+"No description available.",303011
+"No description available.",303012
+"No description available.",303060
+"No description available.",303078
+"System related debugging messages logged in the station manager (stm).",304003
+"No description available.",304008
+"No description available.",304021
+"This message indicates whether the specified licensed feature is enabled or disabled",304030
+"No description available.",304034
+"No description available.",304036
+"This log indicates that the in-memory client blacklist was cleared.",304051
+"This log indicates that the client blacklist database table was cleared.",304052
+"This log indicates that the in-memory client blacklist was repopulated from the database.",304053
+"This debugging log indicates the tunnel id returned from datapath.",304059
+"This debugging log indicates the multicast group and destination index.",304061
+"Count user number from a specified vlan.",304066
+"This log displays a record of the transmission of the AMON message from STM to the amp management server. It includes statistics regarding the number of transmitted STM records.",304069
+"This log displays a record of the transmission of the AMON message from STM to the http management server. It includes statistics regarding the number of transmitted STM records.",304070
+"This log indicates the number of ap neighbors records added to the AMON message buffer.",304071
+"This log indicates the total number of ap neighbors records sent to the management server.",304072
+"This log indicates the number of radio stats records added to the AMON message buffer",304073
+"This log indicates the total number of radio stats records sent to the management server.",304074
+"This log indicates the number of vap stats records added to the AMON message buffer.",304075
+"This log indicates the total number of vap stats records sent to the management server.",304076
+"This log indicates the number of unassociated station records added to the AMON message buffer.",304077
+"This log indicates the total number of unassociated station records sent to the management server.",304078
+"This log indicates the number of station stats records added to the AMON message buffer.",304079
+"This log indicates the total number of station stats records sent to the management server.",304080
+"This log indicates the number of ap info records to the AMON message buffer.",304081
+"This log indicates the total number of ap info records sent to the management server.",304082
+"This log indicates the number of radio info records added to the AMON message buffer.",304083
+"This log indicates the total number of radio info records sent to the management server.",304084
+"This log indicates the number of vap info records added to the AMON message buffer.",304085
+"This log indicates the total number of vap info records sent to the management server.",304086
+"This log indicates the number of ap system stats records added to the AMON message buffer",304087
+"This log indicates the total number of ap system stats records sent to the management server.",304088
+"handle_enet_message_response: IP [ip:%P] PORT [port:%d] not found",304089
+"No description available.",305016
+"No description available.",305025
+"No description available.",305026
+"No description available.",305055
+"No description available.",305100
+"No description available.",307402
+"No description available.",307403
+"No description available.",307404
+"No description available.",307405
+"Debug message that tsgw is enabled",306408
+"Debug message that tsgw is disable",306409
+"VPN module requesting for switch IP",306412
+"Message to indicate a new module registering with the pub/sub service as subscriber",306500
+"Message to indicate a new module registering with the pub/sub service as publisher",306501
+"Message to indicate a new service being published",306502
+"Message to indicate a new private service being published to the specified module",306503
+"Message indicating reception of subscription message for a service",306504
+"Publisher received a registration to publish a service",306505
+"Publisher received a registration to subscribe to a service",306506
+"Message from Pub/Sub server about forwarding a subscription request to publisher",306507
+"Message from Pub/Sub server about a module unsubscribing from a service",306508
+"Message from Pub/Sub server about a module stopping to publish a service",306509
+"Warning message from Pub/Sub server that no subscriber exists for the specified service for which a message was received from specified sender",306511
+"Message from Pub/Sub server that a message was published for the specified service to specified sender and receiver",306512
+"When a module begins to publish a service for which subscribers already exists",306513
+"Resent pubsub message to register as publisher",306517
+"Resent pubsub message to register as subscriber",306518
+"No description available.",306603
+"No description available.",307000
+"No description available.",307001
+"No description available.",307002
+"No description available.",307004
+"No description available.",307005
+"No description available.",307006
+"No description available.",307007
+"No description available.",307008
+"No description available.",307009
+"No description available.",307010
+"No description available.",307011
+"No description available.",307012
+"No description available.",307014
+"No description available.",307015
+"No description available.",307017
+"No description available.",307018
+"No description available.",307020
+"No description available.",307023
+"No description available.",307025
+"No description available.",307026
+"No description available.",307027
+"No description available.",307029
+"No description available.",307030
+"No description available.",307031
+"No description available.",307032
+"No description available.",307033
+"No description available.",307034
+"No description available.",307035
+"No description available.",307036
+"No description available.",307037
+"No description available.",307038
+"No description available.",307041
+"No description available.",307043
+"No description available.",307044
+"No description available.",307045
+"No description available.",307046
+"No description available.",307048
+"No description available.",307049
+"No description available.",307050
+"No description available.",307051
+"No description available.",307053
+"No description available.",307054
+"No description available.",307055
+"No description available.",307056
+"No description available.",307057
+"No description available.",307058
+"No description available.",307060
+"No description available.",307061
+"No description available.",307062
+"No description available.",307063
+"No description available.",307064
+"No description available.",307065
+"No description available.",307066
+"No description available.",307067
+"No description available.",307071
+"No description available.",307072
+"No description available.",307073
+"No description available.",307075
+"No description available.",307076
+"No description available.",307077
+"No description available.",307078
+"No description available.",307079
+"No description available.",307080
+"No description available.",307082
+"No description available.",307083
+"No description available.",307084
+"No description available.",307085
+"No description available.",307086
+"No description available.",307088
+"No description available.",307089
+"No description available.",307090
+"No description available.",307092
+"No description available.",307093
+"No description available.",307094
+"No description available.",307095
+"No description available.",307097
+"No description available.",307098
+"No description available.",307099
+"No description available.",307100
+"No description available.",307101
+"No description available.",307104
+"No description available.",307105
+"No description available.",307106
+"No description available.",307107
+"No description available.",307108
+"No description available.",307109
+"No description available.",307110
+"No description available.",307111
+"No description available.",307112
+"No description available.",307113
+"No description available.",307114
+"No description available.",307115
+"No description available.",307117
+"No description available.",307121
+"No description available.",307122
+"No description available.",307125
+"No description available.",307126
+"No description available.",307127
+"No description available.",307128
+"No description available.",307129
+"No description available.",307130
+"No description available.",307131
+"No description available.",307132
+"No description available.",307134
+"No description available.",307135
+"No description available.",307138
+"No description available.",307140
+"No description available.",307142
+"No description available.",307143
+"No description available.",307144
+"No description available.",307145
+"No description available.",307146
+"No description available.",307147
+"No description available.",307148
+"No description available.",307149
+"No description available.",307151
+"No description available.",307152
+"No description available.",307153
+"No description available.",307154
+"No description available.",307155
+"No description available.",307156
+"No description available.",307157
+"No description available.",307158
+"No description available.",307159
+"No description available.",307160
+"No description available.",307161
+"No description available.",307162
+"No description available.",307163
+"No description available.",307168
+"No description available.",307169
+"No description available.",307170
+"No description available.",307171
+"No description available.",307172
+"No description available.",307173
+"No description available.",307174
+"No description available.",307175
+"No description available.",307177
+"No description available.",307178
+"No description available.",307179
+"No description available.",307181
+"No description available.",307182
+"No description available.",307183
+"No description available.",307184
+"No description available.",307185
+"No description available.",307186
+"No description available.",307187
+"No description available.",307188
+"No description available.",307189
+"No description available.",307190
+"No description available.",307191
+"No description available.",307192
+"No description available.",307194
+"No description available.",307195
+"No description available.",307196
+"No description available.",307197
+"No description available.",307198
+"No description available.",307200
+"No description available.",307201
+"No description available.",307202
+"No description available.",307203
+"No description available.",307204
+"No description available.",307205
+"No description available.",307206
+"No description available.",307207
+"No description available.",307208
+"No description available.",307209
+"No description available.",307210
+"No description available.",307211
+"No description available.",307212
+"No description available.",307213
+"No description available.",307214
+"No description available.",307215
+"No description available.",307217
+"No description available.",307219
+"No description available.",307220
+"ø€œSwitch ip is not configured yet",307221
+"No description available.",307223
+"No description available.",307224
+"There was an error binding the Master Config socket. Configuration distribution to the locals will not work properly",307226
+"No description available.",307227
+"No description available.",307229
+"No description available.",307230
+"No description available.",307231
+"No description available.",307233
+"No description available.",307234
+"No description available.",307235
+"No description available.",307237
+"No description available.",307239
+"No description available.",307240
+"No description available.",307241
+"No description available.",307243
+"No description available.",307245
+"No description available.",307248
+"No description available.",307252
+"No description available.",307253
+"No description available.",307258
+"DBSYNC was unable to initialize itself upon startup.Recommended Action: Try issuing a ø€˜process restart dbsyncø€™ to reinitialize dbsync. If the problem persists",307259
+"No description available.",307260
+"DBSYNC was unable to initialize the internal messaging system upon startup.Recommended Action: Try issuing a ø€˜process restart dbsyncø€™ to reinitialize dbsync. If the problem persists",307261
+"DBSYNC encountered a length error with the internal messaging systemRecommended Action: Try issuing a ø€˜process restart dbsyncø€™ to reinitialize dbsync. If the problem persists",307262
+"DBSYNC encountered a error when communicating with the wms processRecommended Action: Try issuing a ø€˜process restart dbsyncø€™ to reinitialize dbsync. If the problem persists",307263
+"DBSYNC encountered an unrecognized messageRecommended Action: Try issuing a ø€˜process restart dbsyncø€™ to reinitialize dbsync. If the problem persists",307264
+"No description available.",307265
+"DBSYNC encountered an error when sending internal messagesRecommended Action: Try issuing a ø€˜process restart dbsyncø€™ to reinitialize dbsync. If problem persists",307266
+"No description available.",307267
+"DBSYNC encountered an error when sending internal messagesRecommended Action: Try issuing a ø€˜process restart dbsyncø€™ to reinitialize dbsync. If problem persists",307268
+"No description available.",307269
+"No description available.",307270
+"No description available.",307273
+"No description available.",307274
+"No description available.",307277
+"No description available.",307278
+"No description available.",307279
+"No description available.",307280
+"No description available.",307281
+"No description available.",307282
+"No description available.",307287
+"No description available.",307288
+"No description available.",307289
+"No description available.",307294
+"No description available.",307298
+"No description available.",307299
+"No description available.",307300
+"No description available.",307314
+"No description available.",307315
+"No description available.",307317
+"No description available.",307319
+"No description available.",307322
+"No description available.",307325
+"No description available.",307326
+"No description available.",307327
+"No description available.",307330
+"No description available.",307331
+"No description available.",307332
+"No description available.",307335
+"No description available.",307336
+"No description available.",307337
+"No description available.",307338
+"No description available.",307341
+"No description available.",307342
+"No description available.",307347
+"No description available.",307348
+"No description available.",307351
+"No description available.",307352
+"No description available.",307353
+"No description available.",307354
+"No description available.",307355
+"No description available.",307356
+"No description available.",307357
+"No description available.",307358
+"No description available.",307359
+"No description available.",307360
+"No description available.",307364
+"No description available.",307365
+"No description available.",307366
+"No description available.",307367
+"No description available.",307368
+"No description available.",307369
+"No description available.",307370
+"No description available.",307371
+"No description available.",307372
+"No description available.",307373
+"No description available.",307374
+"No description available.",307375
+"No description available.",307376
+"No description available.",307378
+"No description available.",307379
+"No description available.",307380
+"No description available.",307381
+"No description available.",307382
+"No description available.",307383
+"No description available.",307384
+"No description available.",307387
+"No description available.",307388
+"No description available.",307389
+"No description available.",307390
+"No description available.",307391
+"No description available.",307392
+"No description available.",307393
+"No description available.",307394
+"No description available.",307395
+"No description available.",307396
+"No description available.",307402
+"No description available.",307403
+"No description available.",307404
+"No description available.",307405
+"No description available.",307406
+"No description available.",307407
+"No description available.",307408
+"No description available.",307409
+"No description available.",307410
+"No description available.",307411
+"No description available.",307412
+"No description available.",307413
+"No description available.",307414
+"No description available.",307415
+"No description available.",307416
+"This shows an internal debug message in IF-MAP Client.",309005
+"This is MAPC internal debugging message.",309021
+"This is MAPC internal debugging message.",309022
+"This is MAPC internal debugging message.",309023
+"This is MAPC internal debugging message",309025
+"This indicates successfull disconnect to an IF-MAP server.",309045
+"This indicates a message is published to an IF-MAP server successfully.",309048
+"This indicates the skip of publishing to an IF-MAP server due to no session established.",309051
+"This indicates MAPC is trying to establish a session to an IF-MAP server.",309052
+"This indicates MAPC is trying to tear down a session to an IF-MAP server.",309053
+"This indicates MAPC is trying to publish http-user-agent to IF-MAP server(s).",309054
+"This indicates publishing of http-user-agent to IF-MAP server(s) is skipped.",309055
+"This indicates MAPC is trying to publish mDNS info to IF-MAP server(s).",309056
+"This indicates publishing of mDNS info to IF-MAP server(s) is skipped.",309057
+"This indicates an internal debug message.",309903
+"No description available.",311008
+"No description available.",311009
+"No description available.",311025
+"No description available.",312106
+"No description available.",313000
+"No description available.",313005
+"No description available.",313006
+"No description available.",313007
+"No description available.",313008
+"No description available.",313009
+"No description available.",313010
+"No description available.",313013
+"No description available.",313018
+"No description available.",313031
+"No description available.",313040
+"No description available.",313046
+"No description available.",313047
+"No description available.",313048
+"No description available.",313049
+"No description available.",313050
+"No description available.",313058
+"No description available.",313077
+"No description available.",313079
+"No description available.",313095
+"No description available.",313112
+"No description available.",313114
+"No description available.",313117
+"No description available.",313126
+"No description available.",313146
+"No description available.",313158
+"No description available.",313160
+"No description available.",313161
+"No description available.",313162
+"No description available.",313163
+"No description available.",313166
+"No description available.",313214
+"No description available.",313219
+"No description available.",313244
+"System is inserting a route in the database",313247
+"System ignored request to add a duplicate route",313252
+"No description available.",313254
+"No description available.",313257
+"System is inserting a route in the database",313292
+"System ignored request to add a duplicate route",313297
+"No description available.",313299
+"No description available.",313302
+"System is sending VRRP advertisement for the specified VRID",313329
+"No description available.",313339
+"No description available.",313348
+"No description available.",313353
+"A card has been removed",313361
+"No description available.",313365
+"No description available.",313368
+"No description available.",313369
+"No description available.",313375
+"No description available.",313394
+"No description available.",313395
+"No description available.",313403
+"No description available.",313430
+"No description available.",313431
+"No description available.",313432
+"No description available.",313433
+"No description available.",313435
+"No description available.",313436
+"No description available.",313439
+"This message indicates that a heartbeat message has been sent on the tunnel",313442
+"This message indicates that a heartbeat reply message has arrived",313444
+"No description available.",313448
+"No description available.",313449
+"No description available.",313450
+"No description available.",313456
+"No description available.",313458
+"No description available.",313460
+"No description available.",313461
+"No description available.",313462
+"No description available.",313463
+"No description available.",313464
+"No description available.",313492
+"No description available.",313508
+"VRRP preemption delay timer expired",313509
+"Waiting for phytask to do the cleanup PPP device removed",313525
+"No description available.",313526
+"No description available.",314814
+"Process Fpapps timed out trying to get the ACL information from Auth manager.Cause: This typically happens at initialization. Auth Manager",315383
+"No description available.",316027
+"No description available.",316028
+"No description available.",316029
+"No description available.",316030
+"No description available.",316031
+"No description available.",316032
+"No description available.",316033
+"No description available.",316034
+"No description available.",316035
+"No description available.",316036
+"No description available.",316037
+"No description available.",316038
+"No description available.",316039
+"No description available.",316051
+"No description available.",316052
+"No description available.",316067
+"No description available.",316071
+"No description available.",316072
+"No description available.",316073
+"No description available.",316074
+"No description available.",316075
+"No description available.",316083
+"No description available.",316094
+"No description available.",316097
+"No description available.",316107
+"No description available.",316112
+"No description available.",316200
+"No description available.",316201
+"No description available.",316203
+"No description available.",316204
+"No description available.",316205
+"No description available.",316206
+"No description available.",316207
+"No description available.",316210
+"No description available.",316211
+"No description available.",316212
+"No description available.",316213
+"No description available.",316233
+"No description available.",316235
+"No description available.",316236
+"No description available.",316237
+"No description available.",316238
+"No description available.",316239
+"No description available.",316240
+"No description available.",316246
+"This log displays a record of the transmission of the AMON message to the amp management server. It includes statistics regarding the number of transmitted WMS records.",316268
+"This log displays a record of the transmission of the AMON message to the http management server. It includes statistics regarding the number of transmitted WMS records.",316269
+"This log indicates the number of records of certain type added to the AMON message buffer.",316270
+"This log indicates the total number of records of certain type sent to the management server.",316271
+"WMS AMON generic debug message for MON_STA_INFO msg to be only used for debugging/private builds.",316272
+"WMS AMON generic debug message for MON_AP_INFO msg to be only used for debugging/private builds.",316273
+"ntpwrap received child exited signal signal",317000
+"No description available.",322001
+"No description available.",323002
+"This shows an internal debug message",325029
+"This shows an internal debug message",325030
+"No description available.",326001
+"No description available.",326076
+"No description available.",326081
+"No description available.",326086
+"No description available.",326087
+"No description available.",326090
+"No description available.",326092
+"No description available.",326093
+"This log indicates that spectrum radio is registering with the controller.",326094
+"This log indicates that spectrum radio is un-registering with the controller.",326095
+"No description available.",326099
+"No description available.",326213
+"No description available.",326216
+"No description available.",326280
+"No description available.",330001
+"An internal communication error occurred while sending a message",330105
+"No description available.",330200
+"No description available.",334000
+"No description available.",334100
+"[msg:%s]334101",334101
+"PhoneHome state machine debugging",334208
+"PhoneHome is deleting successfully uploaded transaction",334213
+"PhoneHome spwaning child process to deal with transaction posting",334216
+"PhoneHome parent process waiting for completion of transaction posting by child",334217
+"No description available.",334218
+"No description available.",334219
+"No description available.",334220
+"No description available.",334222
+"No description available.",334223
+"No description available.",334224
+"No description available.",334501
+"No description available.",334553
+"No description available.",334554
+"No description available.",334557
+"No description available.",334558
+"No description available.",334559
+"Heartbeat stats when we received the HB",335006
+"Received a HB message",335007
+"ECC write error.",335014
+"No description available.",335304
+"No description available.",336005
+"No description available.",336006
+"No description available.",337000
+"Internal debugging message",338000
+"Internal debugging message",338100
+"No description available.",339305
+"No description available.",339306
+"No description available.",341001
+"The AP is configuring ACL.",341022
+"The AP is configuring LED mode",341024
+"The AP is configuring VC key.",341025
+"Station update.",341124
+"[func:%s]: add reauth ctx client-[num:%d]. Station update.",341125
+"User login.",341126
+"AP is setting SSID.",341127
+"AP is sending mesh parameters.",341131
+"AP remove client when timeout.",341137
+"AP receive user alert.",341138
+"AP receives message from airwave.",341142
+"Checking session id fail",341200
+"System related debugging messages logged in the mDNS proxy (mdns)",343002
+"System related debugging parse messages logged in the mDNS proxy (mdns)",343003
+"System related debugging configuration messages logged in the mDNS proxy (mdns)",343004
+"No description available.",345305
+"No description available.",345306
+"httpd wrapø€™s moduleø€™s debug message",350005
+"This is an internal system debugging log",399804
+"This log indicates that we were unable to open a system file for reading/ editing. In some cases",399806
+"This log is used for debugging configuration changes",399809
+"This is an internal system debugging log.",399814
+"This log indicates a Hidden command on the line.",399819
+"This log indicates a Global command is getting executed on the local.",399820
+"This log indicates that we saw a syntax error while parsing the config file.",399821
+"This is an webserver system debugging log.",399823
+"This is an webserver system debugging log.",399828
+"This log defines time taken by application to active configuration once it has recieved all the configs from cfgm.",399835
+"An attempt was made to run a command that is not available in the current stacking mode.",399836
+"An attempt was made to run a command that is not available due to the capabilities of the platform.",399837
+"This log indicates that application processes in the system encountered an error sending messages to each other. This could be a transient condition and the problem might go away. If the problem persists",399839
+"L2TP generic emergencies.Error IDMessage and Description",142010
+"The certificate has expired.",118000
+"This shows a critical error message in Cert Mgr.",118005
+"Certificate [certname:%s] is going to expire in less than 60 days.",118013
+"The Random number generator function failed.",124058
+"The system has reached its firewall rule capacity.Recommended Action: Delete or consolidate the existing firewall rules to free up space for more rules.",124061
+"Termination is being enabled before certificate is downloaded",132002
+"APø€™s configuration is not complete. Either WEP key/WEP Transmit Key/ WPA Passphrase is not configured",132014
+"System failed to create SSL Context",132135
+"Failed to load the Certificate for 802",132136
+"Private key is not found in the certificate",132137
+"Failed to allocate BIO structure",132138
+"Failed to allocate BIO out structure",132139
+"Failed to set the cipher using ssl3_get_cipher_by_char",132140
+"Failed to create a buffer using BUF_MEM_new",132141
+"Failed to output the certificate chain",132142
+"Failed to download MODEXP to datapath for 802.1x termination",132143
+"Failed to download the server certificate for dot1x termination",132144
+"BIO read failed",132145
+"sl_get_server_send_cert failed",132146
+"System failed to create the internal user database Recommended Action: Contact your support provider",133016
+"System encountered an error while updating NASIP field in user database record.Recommended Action: Contact your support provider",133020
+"System encountered the specified error while importing user database Recommended Action: Contact your support provider",133031
+"System encountered an error while importing user database from the specifed fileRecommended Action: Contact your support provider",133033
+"The existing version 2 database is not one that is supported for automatic upgrade",133045
+"AUTH DB_API failed to allocate memory144 | Security Messages ArubaOS 6",133052
+"The Random number generator function failed.",137037
+"L2TP generic critical.Error MessagesTable 14 Security Error MessagesError IDMessage and Description",142009
+"Internal error if IPsec map for Master-Local or Master-Master is not created",103001
+"Internal error if IKE PSK for Master-Local or Master-Master is not created",103002
+"System received malformed SA transform negotiation message from client. IKE requires that only one SA with only one proposal exists. Message consisted of multiple SA or proposal payloads.",103010
+"Failure in negotiation of IKE SA due to misconfigured ISAKMP policy.Recommended Action: Look at output of show crypto isakmp policy and compare that to the peer/client",103013
+"Failure in negotiation of IKE SA due to receipt of malformed IKE packet. Recommended Action: Look at the client/peer implementation",103014
+"Failure in negotiation of IKE SA due to incorrect IKE Phase 1 ID",103016
+"Failure to negotiate IPsec SA due to internal error of missing IPsec map for Master-Local or Master-Master tunnel",103020
+"Failure in IPsec SA negotiation due to malformed IKE Quick mode packet. Recommended Action: Please check the implementation of peer/clientø€ù",103023
+"Failure in IPsec SA negotiation due to IKE Quick mode packet that is missing ID payload",103025
+"Failure in IPsec SA negotiation due to IKE Quick mode packet that has invalid ID type.Recommended Action: Please check the client/peer implementation",103027
+"General Failure in IPsec SA negotiation.Recommended Action: Please check the client/peer implementation and logs",103031
+"Internal error due to failure in adding Payload during IPsec SA negotiation.",103032
+"nternal error where IPsec SA is not found for corresponding L2TP tunnel",103036
+"Internal error in IKE messaging to Datapath during IPsec tunnel creation",103037
+"Internal error in IKE messaging to L2TP during IPsec tunnel deletion",103039
+"Internal error in IKE messaging to AUTHMGR for XAUTH IP down event",103041
+"Internal error when IPsec SA is created without an Inner-IP assigned to the Client",103043
+"ø€œIKE has exceeded the maximum number of XAUTH VPN Authentication requests to the AAA server.Recommended Action: Please check the AAA server to see why it is not responding to the VPN authentication requestsø€ù",103044
+"Failure to get an Inner IP for VPN clientRecommended Action: Check the IP pool configuration using the show vpdn l2tp configuration command",103045
+"Internal error in IKE messaging to AUTHMGR for XAUTH IP up event",103046
+"VPN authentication failed for XAUTH user",103048
+"Internal error in messaging for Master-Local IKE configuration",103050
+"Internal error in creating IPsec SA",103052
+"Internal error in adding/deleting Routes for Master Local tunnel146 | Security Messages ArubaOS 6",103055
+"L2TP tunnel was deleted but could not find corresponding IPsec SA for VPN client",103058
+"General internal errors in IKE module",103061
+"Xauth failure as the AP is not in whitelist",103067
+"Xauth failure as the AP is not in approved-state in whitelist",103068
+"IKE has exceeded the maximum number of Whitelist requests to the UDB server. It appears the UDB server is busy or not responding.",103071
+"Internal error in IKE ACR License check message to AUTH during IPsec tunnel establishment",103073
+"IKEv2 Cert Verification failed for the specified peer",103088
+"System encountered an error retrieving Distinguished Name of the entry returned by the search result.Cause: This could happen if user could not be found.Recommended Action: The Key Attribute or the Base DN configured for the server may be incorrect.",109020
+"System could not authenticate user because Key attribute was not configured for the server.Recommended Action: Check the LDAP server configuration.",109022
+"The certificate is not yet valid.Please check the controller time and the cert validity period",118001
+"The CRL has expired.",118002
+"This shows an error message in Cert Mgr.",118004
+"OCSP URL or Responder Certificate is not configured for given CA.",118006
+"OCSP Clientø€™s cleanup timer failed to initialize",118007
+"Periodic certificate expiry check timer failed to initialize.",118008
+"Controller failed to calculate the HMAC-MD5 digest for RADIUS packet due to an internal errorRecommended Action: If the problem persists",121000
+"An socket error occurred while receiving RADIUS server response Recommended Action: If the problem persists",121001
+"An error occurred while receiving RADIUS server response Recommended Action: If the problem persists",121002
+"RADIUS Server has returned a response that does not match the request or the packet could be corruptRecommended Action: Validate RADIUS server configuration. If the problem persists",121003
+"An error occurred while receiving RADIUS server response on port 3799 (RFC 3576)Recommended Action: If the problem persists",121005
+"Internal error occurred while initiating connection with the RADIUS server Recommended Action: If the problem persists",121008
+"Internal error occurred while connecting with the RADIUS server Recommended Action: If the problem persists",121009
+"Internal error occurred while sending data to the RADIUS server Recommended Action: If the problem persists",121010
+"The expected length of a RADIUS server response packet is between 20 and 4096 bytes.Recommended Action: Please check the length of response packet from the RADIUS server.",121011
+"The internal buffer is not big enough for the RADIUS response packet and RADIUS secretRecommended Action: Please check the length of the RADIUS response packet from the RADIUS server and the length of RADIUS secret",121012
+"Received a response from the RADIUS server",121013
+"The reply digest received from the RADIUS server doesnø€™t match the calculated digestRecommended Action: Please check the RADIUS server is configured properly and verify shared secret configuration on the controller matches that on the RADIUS server",121014
+"The PENDING request buffer to RADIUS server is already full (256). Response from RADIUS server seems to be slower than the rate at which the users are coming inRecommended Action: Please check the RADIUS server is configured properly and the connectivity between the controller and RADIUS server is good.",121016
+"The RADIUS vendor or the attribute ID is not knownRecommended Action: Please use the show aaa radius-attributes command to check if the vendor or attribute ID is supported.",121017
+"The RADIUS attribute is not knownRecommended Action: Please use the show aaa radius-attributes command to check if the attribute ID is supported.",121018
+"Received RADIUS attribute with invalid length",121019
+"Received unknown RADIUS attribute type",121021
+"Received unknown RADIUS attribute name",121022
+"Controller received an unknown RADIUS attribute while extracting the attribute-value pairs from Radius server responseRecommended Action: Please use the show aaa radius-attributes command to check if the attribute value is supported.",121023
+"Internal error occurred while converting the attribute-value pairs received in RADIUS response to stringsRecommended Action: If the problem persists",121025
+"Internal error occurred while initiating connection with RADIUS server Recommended Action: If the problem persits",121029
+"Error occurred while connecting to RADIUS server Recommended Action: If the problem persists",121030
+"rc_pack_list: Attribute list exceeds 8192 bytes",121033
+"Internal error occurred while setting connection options with the RADIUS serverRecommended Action: Please contact tech support if this problem persists.",121036
+"This shows an internal debug message",121047
+"This shows an internal debug message",121048
+"This shows an internal debug message",121049
+"TACACS server is not configuredRecommended Action: Please use the aaa authentication-server tacacs command to configure TACACS server",122000
+"The TACACS packet header type is not expected. The packet could be corruptRecommended Action: Please check your TACACS server configuration and network connection to the TACACS server.",122004
+"The TACACS packet header sequence number is not expected. The reply could be corruptRecommended Action: Please check your TACACS server configuration and network connection to the TACACS server.ø€œ",122005
+"The TACACS packet header session ID is not expected. The reply could be corruptRecommended Action: Please check your TACACS server configuration and network connection to the TACACS server.ø€œ",122006
+"Error occurred while sending body portion of the request to TACACS server",122009
+"Authentication Failed. Error occurred while receiving header portion of the reply from TACACS server",122010
+"Authentication Failed. Error occurred while receiving body portion of the reply from TACACS server. The reply could be corruptRecommended Action: Please check your TACACS server configuration and network connection to the TACACS server",122011
+"Authentication Failed",122012
+"Error occurred while sending header portion of the TACACS accounting request to TACACS server. Link to TACACS server or TACACS server could be downRecommended Action: Please check your TACACS server configuration and network connection to the TACACS server.",122014
+"Error occurred while sending body portion of the TACACS accounting request to TACACS server",122015
+"Accounting Failed",122016
+"Accounting Failed",122017
+"Accounting Failed",122018
+"TACACS accounting failed",122019
+"Error occurred while sending body portion of the request to TACACS server",122021
+"Authorization Failed. Error occurred while receiving header portion of the response from TACACS server",122022
+"Authorization Failed. Error occurred while receiving body portion of the response from TACACS server. The response could be corruptRecommended Action: Please check your TACACS server configuration and network connection to the TACACS server.",122023
+"Authorization Failed",122024
+"A message was received that specified an incorrect service to use for the certificate.Recommended Action: Contact your support provider",124052
+"A response message was expected",124053
+"The requested certificate name was not found.Recommended Action: Upload the named certificate to the controller",124054
+"Certificates can be used for various services. The requested certificate cannot be used for the desired service.Recommended Action: Contact your support provider",124055
+"A user was deleted even though the datapath and auth are inconsistent.",124059
+"To be filled in",124060
+"The server group used to authenticate the user could not be found. Recommended Action: Contract your support provider",124062
+"To be filled in152 | Security Messages ArubaOS 6",124063
+"The MAC user entry could not be created as the maximum number of user entries has been reached.",124085
+"The IP user entry could not be created as the maximum number of user entries has been reached.",124149
+"This shows an internal debug message",124189
+"This shows an internal debug message",124190
+"This shows an internal debug message",124191
+"This shows an internal debug message",124192
+"This shows an internal debug message",124193
+"This shows an internal debug message",124194
+"This shows an internal debug message",124195
+"This shows an internal debug message",124196
+"This shows an internal debug message",124197
+"This shows an internal debug message",124198
+"This shows an internal debug message",124199
+"This shows an internal debug message",124200
+"This shows an internal error message",124251
+"This shows an internal error messageArubaOS 6",124252
+"This shows an internal error message",124253
+"This shows an internal error message",124254
+"This shows an internal error message",124255
+"This shows an internal error message",124256
+"This shows an internal error message",124257
+"This shows an internal error message",124258
+"This shows an internal error message",124259
+"This shows an internal error message",124260
+"This shows an internal error message",124261
+"This shows an internal error message",124262
+"This shows an internal error message",124263
+"This shows an internal error message",124264
+"This shows an internal error message",124265
+"This shows an internal error message",124266
+"This shows an internal error message",124267
+"This shows an internal debug message",124268
+"This shows an internal debug message154 | Security Messages ArubaOS 6",124275
+"This shows an internal error message",124276
+"This shows an internal error message",124277
+"This shows an internal error message",124278
+"This shows an internal error message",124279
+"This shows an internal error message",124280
+"This shows an internal error message",124281
+"This shows an internal error message",124282
+"This shows an internal error message",124283
+"This shows an internal error message",124284
+"This shows an internal error message",124285
+"This shows an internal error message",124286
+"This shows an internal error message",124287
+"This shows an internal error message",124288
+"This shows an internal error message",124289
+"This shows an internal error message",124290
+"This shows an internal error message",124291
+"This shows an internal error messageArubaOS 6",124292
+"This shows an internal error message",124293
+"This shows an internal error message",124294
+"This shows an internal error message",124295
+"This shows an internal error message",124296
+"This shows an internal error message",124297
+"This shows an internal error message",124298
+"This shows an internal error message",124301
+"This shows an internal error message",124302
+"This shows an internal error message",124372
+"This shows an internal error message",124373
+"This shows an internal error message",124374
+"This shows an internal error message",124375
+"This shows an internal error message",124376
+"This shows an internal error message",124377
+"This shows an internal error message",124378
+"This shows an internal error message156 | Security Messages ArubaOS 6",124379
+"This shows an internal error message",124380
+"This shows an internal error message",124381
+"This shows an internal error message",124382
+"This shows an internal error message",124383
+"This shows an internal error message",124384
+"This shows an internal error message",124385
+"This shows an internal error message",124386
+"This shows an internal error message",124387
+"This shows an internal error message",124388
+"This shows an internal error message",124389
+"This shows an internal error message",124390
+"This shows an internal error message",124391
+"This shows an internal error message",124392
+"This shows an internal error messageArubaOS 6",124393
+"This shows an internal error message",124394
+"This shows an internal error message",124395
+"This shows an internal error message",124397
+"This shows an internal error message",124398
+"This shows an internal error message.",124399
+"This shows an internal error message.",124400
+"This shows an internal error message.",124401
+"This shows an internal error message.",124402
+"This shows an internal error message",124422
+"This shows an internal error message",124426
+"This shows an internal error message",124427
+"This shows an internal error message",124428
+"This shows an internal error message",124429
+"This shows an internal error message",124430
+"This shows an internal error message",124431
+"This shows an internal error message158 | Security Messages ArubaOS 6",124488
+"This shows an internal error message",124489
+"This shows an internal error message",124490
+"This shows an internal error message",124491
+"This shows an internal error message",124492
+"This shows an internal error message",124493
+"This shows an internal error message",124494
+"This shows an internal error message",124495
+"This shows an internal error message",124496
+"This shows an internal error message",124497
+"This shows an internal error message",124498
+"This shows an internal error message",124520
+"This shows an internal error message",124542
+"This shows an internal error message",124551
+"This shows an internal error message",124558
+"This shows an internal error message",124596
+"This shows an internal error message",124597
+"This shows an internal error messageArubaOS 6",124598
+"This shows an internal error message",124599
+"This shows an internal error message",124618
+"This shows an internal error message",124619
+"This shows an internal error message",124620
+"This shows an internal error message",124621
+"This shows an internal error message",124622
+"This shows an internal error message",124623
+"This shows an internal error message",124624
+"This shows an internal error message",124625
+"This shows an internal error message",124662
+"This shows an internal error message",124663
+"This shows an internal error message",124664
+"This shows an internal error message",124665
+"This shows an internal error message",124666
+"This shows an internal error message",124667
+"This shows an internal error message",124668
+"This shows an internal error message",124669
+"This shows an internal error message160 | Security Messages ArubaOS 6",124670
+"This shows an internal error message",124671
+"This shows an internal error message",124672
+"This shows an internal error message",124673
+"This shows an internal error message",124674
+"This shows an internal error message",124675
+"This shows an internal error message",124676
+"This shows an internal error message",124677
+"This shows an internal error message",124678
+"This shows an internal error message",124679
+"This shows an internal error message",124680
+"This shows an internal error message",124681
+"This shows an internal error message",124682
+"This shows an internal error message",124683
+"This shows an internal error message",124686
+"This shows an internal error message.",124697
+"This shows an internal error message.",124704
+"This shows an internal error message",124812
+"The controller was unable to add the role ACL to the AP group.",124815
+"The controller was unable to delete the role ACL to the AP group.",124816
+"This shows an internal debug message",124819
+"This shows an internal debug message",124821
+"Could not find the device in the pre-defined device database",124822
+"Encountered snmp tree node with zero mac while v6 snmpwalk and no ipv6 address",124826
+"Internal error occurred while converting the encrypted string of management user",125000
+"Internal error when executing the command ssh disable-dsa to disable DSA.Cause: This issue could arise because there is no space on the file system Recommended Action: Delete un-needed files and try the command again",125005
+"Internal error when executing the command ssh disable-dsa to disable DSA.Cause: This issue could arise because there is no space on the file system Recommended Action: Delete un-needed files and try the command again",125006
+"Internal error when executing the command ssh disable-dsa to disable DSA.Cause: This issue could arise because there is no space on the file system Recommended Action: Delete un-needed files and try the CLI command again",125007
+"Internal error when executing the command no ssh disable-dsa to re- enable DSA.Cause: This issue could arise because there is no space on the file systemø€ù Recommended Action: Delete un-needed files and try the command again",125008
+"Internal error when executing the command ssh disable-dsa or the no ssh disable-dsa command",125009
+"Internal error that can occur while saving configuration indicating the internal data corruption related to mgmt-users.Recommended Action: Re-Create all the management users or execute the command process restart aaa",125010
+"Internal error that can occur while creating mgmt-user",125013
+"Debug message to indicate that Server authentication failed",125020
+"Internal error occurred while initializing backend database connection",125040
+"Internal error occurred while creating mgmt-user for cert based authentication and saving the user information in the backend databaseRecommended Action: Delete mgmt-user",125041
+"Internal error occurred while performing file IO",125043
+"Internal error",125044
+"Internal error",125045
+"Internal error occurred while creating mgmt-user for cert based authentication and unable to refresh the ca cert bundle used by controller WebUI.Recommended Action: Delete the mgmt-user",125046
+"nternal Error occurred while refreshing ssh public key authorized keys file",125047
+"Internal error occurred while creating/deleting mgmt-users for certificated based authentication",125051
+"Internal error occurred while creating/deleting mgmt-users for certificated based authentication",125052
+"Internal error occurred when creating cert based mgmt-users for SSH CLI access.Recommended Action: Revert the command that was executed and redo the CLI command for certificate based mgmt-user authentication.",125053
+"Internal error occurred when creating cert based mgmt-users for SSH CLI accessRecommended Action: Revert the command that was executed and redo the CLI command for certificate based mgmt-user authentication.",125054
+"Internal error occurred in aaa module",125055
+"Internal error occurred in aaa module",125062
+"This event indicates that an unauthorized access point is connected to the wired network. The access point is declared Rogue because it was matched to a MAC address.Recommended Action: This alert indicates an event that may affect your wireless infrastructure.",126000
+"This event indicates that a previously detected access point",126001
+"This event indicates that an unauthorized access point is connected to the wired network",126002
+"This event indicates that a previously detected access point",126003
+"This event indicates that an unauthorized access point is connected to the wired network. The access point is declared Rogue because it was matched to a MAC address.Recommended Action: This alert indicates an event that may affect your wireless infrastructure.",127000
+"This event indicates that a previously detected access point",127001
+"To be filled out",129002
+"xSec vlan is not configured for the specified portRecommended Action: Configure VLAN that supports XSEC on specified port",132003
+"Authentication process has detected an unknown APRecommended Action: Execute the show ap database command to determine if system is aware of the Access Point. Power-cycle the unknown AP.",132004
+"Specified AP is not enabledRecommended Action: Configure AP with a valid virtual-AP or wired profile",132005
+"Station failed to complete the security association with authentication processRecommended Action: Confirm that the SSID that the supplicant is associating to is configured to support 802.1X authentication and is configured correctly",132006
+"Failed to clear the station from the APø€™s station tableRecommended Action: Station does not exist in authentication process tables. Confirm by running the show station command",132008
+"Stationø€™s internal context is not completely initializedRecommended Action: Internal error",132009
+"APø€™s configuration is not complete. Check if the WEP transmit key is set Recommended Action: Check of the WEP transmit key is set in the ssid-profile",132013
+"Failed to deauthenticate the specified station Recommended Action: Internal error. Clear the station and reconnect.",132015
+"Internal server is not available for caching the machine authentication for the specified User.Recommended Action: Run the aaa test-server pap internal command to verify connectivity to the local database server. If unavailability of local database server persists and controller is a local-controller",132016
+"Failed to update the Machine authentication Status for the specified User because udbserver process is not responding.Recommended Action: Run the aaa test-server pap internal command to verify connectivity to the local database server. If unavailability of local database server persists and controller is a local-controller",132017
+"Station was deleted before receiving response from the Internal Server due to high latency between local-controllerø€™s AUTH process and master-controllerø€™s UDBSERVER process.Recommended Action: Diagnose external IP-latency issues between master- controller and local-controller and have the client re-attempt their authentication- request.",132018
+"802.1x authentication is disabled for the specified profile.Recommended Action: Configure the specified aaa-profile to enable 802.1x authentication.",132023
